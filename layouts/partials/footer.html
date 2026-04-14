@@ -1,0 +1,25 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="/" class="footer-logo">AI with Jen</a>
+      <p class="footer-tagline">ML/AI data engineer · Speaker · Educator</p>
+      <p class="footer-tagline">I design the language layer of data infrastructure.</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <h4 class="footer-heading">Explore</h4>
+        {{ range .Site.Menus.footer }}
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Connect</h4>
+        <a href="https://github.com/jkelleman" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://jenkelleman.medium.com" target="_blank" rel="noopener">Medium</a>
+        <a href="https://linkedin.com/in/jenkelleman" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:jen@aiwithjen.com">Email</a>
+      </div>
+    </div>
+  </div>
+  <p class="footer-copy">&copy; {{ now.Year }} Jen Kelleman. All rights reserved.</p>
+</footer>

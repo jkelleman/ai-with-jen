@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" rx="6" fill="#1A8A7D"/>
+  <text x="4" y="23" font-family="Georgia, 'Source Serif 4', serif" font-weight="700" font-size="18" fill="#FFFFFF" letter-spacing="-1">aj</text>
+  <circle cx="25" cy="7" r="2" fill="#D4F0EC"/>
+  <line x1="25" y1="7" x2="28" y2="4" stroke="#D4F0EC" stroke-width="0.8"/>
+  <line x1="25" y1="7" x2="22" y2="4" stroke="#D4F0EC" stroke-width="0.8"/>
+  <line x1="25" y1="7" x2="27" y2="10" stroke="#D4F0EC" stroke-width="0.8"/>
+</svg>

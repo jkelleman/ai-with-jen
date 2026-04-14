@@ -1,0 +1,23 @@
+{{ define "main" }}
+<article class="page">
+  <header class="page-header">
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-description">{{ . }}</p>{{ end }}
+  </header>
+  <div class="page-content">
+    {{ .Content }}
+  </div>
+  {{ $pages := .Pages }}
+  {{ if $pages }}
+  <section class="article-list">
+    {{ range $pages }}
+    <a href="{{ .RelPermalink }}" class="article-card">
+      <h3 class="article-card-title">{{ .Title }}</h3>
+      <p class="article-card-summary">{{ .Description }}</p>
+      <time class="article-card-date">{{ .Date.Format "Jan 2, 2006" }}</time>
+    </a>
+    {{ end }}
+  </section>
+  {{ end }}
+</article>
+{{ end }}

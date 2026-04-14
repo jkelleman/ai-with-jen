@@ -1,0 +1,66 @@
+baseURL = "https://aiwithjen.com/"
+languageCode = "en-us"
+title = "AI with Jen — Content Design Meets Data Infrastructure"
+
+[params]
+  description = "Jen Kelleman — Content designer, speaker, educator. I design the language layer of data infrastructure."
+  author = "Jen Kelleman"
+  tagline = "I design the language layer of data infrastructure."
+
+[menu]
+  # Main nav — focused, 4 items
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    name = "Work with Me"
+    url = "/work-with-me/"
+    weight = 2
+  [[menu.main]]
+    name = "Speaking"
+    url = "/speaking/"
+    weight = 3
+  [[menu.main]]
+    name = "Courses"
+    url = "/courses/"
+    weight = 4
+
+  # Footer nav — all pages
+  [[menu.footer]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.footer]]
+    name = "Speaking"
+    url = "/speaking/"
+    weight = 2
+  [[menu.footer]]
+    name = "Work with Me"
+    url = "/work-with-me/"
+    weight = 3
+  [[menu.footer]]
+    name = "Courses"
+    url = "/courses/"
+    weight = 4
+  [[menu.footer]]
+    name = "Book"
+    url = "/book/"
+    weight = 5
+  [[menu.footer]]
+    name = "Articles"
+    url = "/articles/"
+    weight = 6
+  [[menu.footer]]
+    name = "Testimonials"
+    url = "/testimonials/"
+    weight = 7
+  [[menu.footer]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 8
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
