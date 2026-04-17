@@ -22,7 +22,7 @@ layout: "single"
 **Prerequisites:** None technical — structured thinking and curiosity required
 **Tools:** VS Code, SQL, Microsoft Fabric (free trial), dbt Cloud (free tier), GitHub
 
-The fastest-growing gap in tech isn't between code and copy — it's between what data means and what people think it means. This course teaches the discipline that bridges that gap.
+The fastest-growing gap in tech isn't between code and copy. It's between what data means and what people think it means. This course teaches the discipline that bridges that gap.
 
 > "Even though it might seem simple, in reality the 'Revenue' line you're showing could mean dozens of things."
 >
@@ -59,7 +59,10 @@ The fastest-growing gap in tech isn't between code and copy — it's between wha
 
 A portfolio artifact that includes: a documented semantic model, a glossary and style guide, validation queries proving the docs match the data, a content strategy for the data product, and a narrative reflection.
 
-**Interested?** [Get in touch](/contact/) to bring this course to your university or organization.
+<p style="margin-top: 2rem; text-align: center;">
+  <strong>Interested in bringing this course to your university or organization?</strong><br><br>
+  <a href="/contact/" class="btn">Get in touch →</a>
+</p>
 
 ---
 
@@ -73,7 +76,7 @@ Query literacy for writers. Not a SQL bootcamp — a course that teaches SQL as 
 ### Naming Things: Terminology Design for Data Products
 *Weekend workshop*
 
-A hands-on workshop on naming conventions, glossary design, and data contracts. You'll rename a messy schema, write the rationale, and build a style guide — all in a day.
+A hands-on workshop on naming conventions, glossary design, and data contracts. You'll rename a messy schema, write the rationale, and build a style guide. All in a day.
 
 ### The Data Product Audit
 *Self-paced assessment framework*
@@ -92,4 +95,5 @@ I also offer custom corporate workshops tailored to your team's data products an
 
 ## The book behind the course
 
-The ideas in this course are becoming a book: *Full-Stack Clarity: Why the Most Important Line of Code Is the One That Explains What It Does.* [Learn more about the book →](/book/)
+The ideas in this course are becoming a book: *Full-Stack Clarity: Why the Most Important Line of Code Is the One That Explains What It Does.*<br>
+[Learn more about the book →](/book/)

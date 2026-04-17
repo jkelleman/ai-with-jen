@@ -22,7 +22,7 @@ layout: "single"
 
 ### The premise
 
-Data teams build pipelines. Content designers write the words. But the fastest-growing gap in tech isn't between code and copy — it's between what data *means* and what people *think it means*.
+Data teams build pipelines. Content designers write the words. But the fastest-growing gap in tech isn't between code and copy. It's between what data *means* and what people *think it means*.
 
 This book argues that content design and data engineering are the same discipline at different layers of abstraction. The glossary is a semantic model. The error message is a decision framework. The column name is a vocabulary decision. And the documentation layer isn't downstream of infrastructure — it *is* infrastructure.
 
