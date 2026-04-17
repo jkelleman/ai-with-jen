@@ -23,6 +23,8 @@ Whether it's a speaking inquiry, a course partnership, a consulting engagement, 
 
 ### Reach me
 
+[Book 30 min with Jen →](https://calendly.com/aiwithjen)
+
 <!-- TODO: Replace with contact form (Hugo form handler, Formspree, or Netlify Forms) -->
 
 **Email:** [jen@aiwithjen.com](mailto:jen@aiwithjen.com)

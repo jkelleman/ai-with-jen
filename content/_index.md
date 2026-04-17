@@ -8,7 +8,7 @@ layout: "home"
 
 Content designer. Speaker. Educator. I help teams turn complex data systems into things people can actually understand — and AI systems into things people can actually trust.
 
-I'm a Principal Content Designer at Microsoft, where I own the content design for Fabric Data Engineering. I also teach, speak, and write about what happens when you treat clarity as infrastructure — not decoration.
+I'm a Principal Content Designer at Microsoft, where I own the content design for Fabric Data Engineering. I also teach, speak, and write about what happens when you treat clarity as infrastructure.
 
 ---
 
@@ -16,14 +16,26 @@ I'm a Principal Content Designer at Microsoft, where I own the content design fo
 
 <div class="featured-cards">
 
+<div class="featured-card">
+<img src="/img/speaking.jpg" alt="Jen Kelleman speaking at Microsoft × Red Bull Startup Innovation Labs" class="card-img">
+
 #### [Speaking](/speaking/)
 Talks on AI systems design, semantic infrastructure, and the hidden coordination tax of AI at scale. Recent stages include Microsoft × Red Bull Startup Innovation Labs, Boston University, and PyLadies Boston.
+</div>
+
+<div class="featured-card">
+<img src="/img/course.jpg" alt="Audience at Microsoft NERD Center workshop" class="card-img">
 
 #### [Courses](/courses/)
 *Full-Stack Data Clarity* — a university course teaching the discipline between content design and data engineering. Pitched for Fall 2026.
+</div>
+
+<div class="featured-card">
+<img src="/img/articles-fiber.jpg" alt="Fiber optic infrastructure — signal through the system" class="card-img">
 
 #### [Articles](/articles/)
 Writing on AI trust, semantic design, terminology governance, and what it means to design meaning — not just interfaces.
+</div>
 
 </div>
 

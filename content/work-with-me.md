@@ -61,8 +61,30 @@ If your content design team is starting to work on data-heavy products — dashb
 
 ---
 
+### Content Office Hours
+
+Stuck on a content problem — error messages that don't land, naming conventions that collide, data product copy that confuses more than it clarifies? Book a 1-hour session and bring the messy stuff. I'll help you untangle it in real time.
+
+**Format:** 1 hour, virtual, bring your real work
+**Best for:** Content designers, data teams, PMs who know something's wrong but can't name it
+
+[Book a session →](https://calendly.com/aiwithjen)
+
+---
+
+### Mentoring
+
+I provide guidance for content design professionals expanding into data products, AI systems, and technical domains. Whether you're making the leap from marketing copy to data infrastructure or building a case for your first content design hire on a data team — I've navigated those transitions and can help you do it with less friction.
+
+**What we cover:** Career strategy, portfolio positioning, skill-building for technical domains, navigating ambiguity in new-scope roles
+**Format:** Ongoing 1:1s, virtual, tailored to your goals
+
+[Discuss your mentoring goals →](https://calendly.com/aiwithjen)
+
+---
+
 ## Let's talk
 
 Every engagement starts with a conversation. Tell me what you're working on and what you need.
 
-[Get in touch →](/contact/)
+[Book 30 min with Jen →](https://calendly.com/aiwithjen) · [Get in touch →](/contact/)
