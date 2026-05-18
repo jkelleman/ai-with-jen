@@ -19,6 +19,7 @@ Case studies spanning terminology research, content architecture, and agentic AI
   <h3>Osmos Naming and Terminology System</h3>
   <p><strong>Problem:</strong> Teams faced naming deadlock across dozens of options and conflicting constraints.<br><strong>Action:</strong> Designed a structured research and evaluation model to compare candidates and align stakeholders.<br><strong>Outcome:</strong> Drove decision clarity, reduced ambiguity in product language, and established a repeatable naming method.</p>
   <span class="tile-meta">Role: Content Design Lead, Research Owner</span>
+  <p><a href="/osmos-naming-terminology-system/">Read full case study →</a></p>
 </div>
 
 <div class="article-tile">
@@ -45,4 +46,4 @@ Case studies spanning terminology research, content architecture, and agentic AI
 
 </div>
 
-[Read the case studies →](/ai-first-content-systems/) · [Start the conversation →](/contact/)
+[Read the case studies →](/work/) · [Start the conversation →](/contact/)
