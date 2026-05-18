@@ -1,16 +1,23 @@
 ---
 title: "AI with Jen"
-description: "Jen Kelleman — ML/AI data engineer, speaker, educator. I design the language layer of data infrastructure."
+description: "I help AI products say what they mean, so people trust what they do."
 layout: "home"
 ---
 
-## I design the language layer of data infrastructure.
+## I help AI products say what they mean, so people trust what they do.
 
-ML/AI data engineer. Speaker. Educator. I help teams turn complex data systems into things people can actually understand. I also help AI systems become things people can actually trust.
+Principal Content Designer at Microsoft designing the language systems that make AI and data products clear, consistent, and usable at scale.
 
-I'm a Principal Content Designer at Microsoft, where I own the content design for Fabric Data Engineering. I also teach, speak, and write about what happens when you treat clarity as infrastructure.
+For data teams, engineering leaders, and conference organizers building AI systems people can actually trust.
 
-*Currently: preparing for ODSC East and writing Chapter 1 of Full-Stack Data Clarity.*
+---
+
+### Proof
+
+- Principal Content Designer, Microsoft Fabric Data Engineering
+- Content systems for AI monitoring, naming, and trust signals
+- Conference talks and practitioner education in AI/content design
+- Agentic workflow builder with production-scale documentation and governance patterns
 
 ---
 
@@ -21,30 +28,26 @@ I'm a Principal Content Designer at Microsoft, where I own the content design fo
 <div class="featured-card">
 <img src="/img/speaking.jpg" alt="Jen Kelleman speaking at Microsoft × Red Bull Startup Innovation Labs" class="card-img">
 
-#### [Speaking](/speaking/)
-Talks on AI systems design, semantic infrastructure, and the hidden coordination tax of AI at scale.
+#### [Work](/work/)
+See the work behind the systems.
 </div>
 
 <div class="featured-card">
 <img src="/img/course.jpg" alt="Audience at Microsoft NERD Center workshop" class="card-img">
 
-#### [Courses](/courses/)
-*Full-Stack Data Clarity* — a university course teaching the discipline between content design and data engineering. Pitched for Fall 2026.
+#### [Speaking](/speaking/)
+Invite me to speak.
 </div>
 
 <div class="featured-card">
 <img src="/img/articles-fiber.jpg" alt="Fiber optic infrastructure — signal through the system" class="card-img">
 
-#### [Articles](/articles/)
-Writing on AI trust, semantic design, terminology governance, and what it means to design meaning.
+#### [Services](/services/)
+Book a strategy session.
 </div>
 
 </div>
 
 ---
 
-> "The purpose of abstraction is not to be vague, but to create a new semantic level in which one can be absolutely precise."
->
-> **— Edsger W. Dijkstra**, Turing Award winner
-
-[Work with me →](/work-with-me/)  ·  [Book Jen to speak →](/contact/)
+[Read the case studies →](/work/)  ·  [Start the conversation →](/contact/)

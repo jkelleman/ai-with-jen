@@ -16,23 +16,33 @@ Case studies spanning terminology research, content architecture, and agentic AI
 
 <div class="article-tile">
   <span class="tag tag-ai">AI Systems</span>
-  <h3>Naming an Autonomous AI Product</h3>
-  <p>60+ candidates, 10 constraints, 0 clear winners — how research broke a team deadlock. Designed a terminology study reaching 100 users across two personas and proposed the winning name candidate.</p>
+  <h3>Osmos Naming and Terminology System</h3>
+  <p><strong>Problem:</strong> Teams faced naming deadlock across dozens of options and conflicting constraints.<br><strong>Action:</strong> Designed a structured research and evaluation model to compare candidates and align stakeholders.<br><strong>Outcome:</strong> Drove decision clarity, reduced ambiguity in product language, and established a repeatable naming method.</p>
   <span class="tile-meta">Role: Content Design Lead, Research Owner</span>
 </div>
 
 <div class="article-tile">
   <span class="tag tag-data">Data Infrastructure</span>
-  <h3>Content Design for AI Monitoring</h3>
-  <p>Redesigning the information architecture of a monitoring system for multi-notebook data pipelines. Proposed 4 new dependency-aware status values and designed a 6-step product tour for first-time users.</p>
+  <h3>Notebook Dependencies and Monitoring IA</h3>
+  <p><strong>Problem:</strong> Monitoring workflows were hard to scan and dependency status was unclear.<br><strong>Action:</strong> Reworked information architecture, status taxonomy, and guidance content for monitoring surfaces.<br><strong>Outcome:</strong> Improved signal clarity for troubleshooting and created a more actionable monitoring experience.</p>
   <span class="tile-meta">Role: Content Designer, IA Lead</span>
 </div>
 
 <div class="article-tile">
+  <span class="tag tag-ai">Governance</span>
+  <h3>AI-First Content Systems</h3>
+  <p><strong>Problem:</strong> AI-assisted content workflows lacked governance, consistency, and quality controls.<br><strong>Action:</strong> Built system-level content patterns and governance structures for scalable authoring.<br><strong>Outcome:</strong> Increased consistency, reduced content risk, and enabled safer AI-assisted production.</p>
+  <span class="tile-meta">Role: Principal Content Designer</span>
+  <p><a href="/ai-first-content-systems/">Read full case study →</a></p>
+</div>
+
+<div class="article-tile">
   <span class="tag tag-tools">Tools + Practice</span>
-  <h3>My Career Runs on a Git Repo</h3>
-  <p>Building a personal operating system with 7 AI agents, 3 skills, and 5 MCP servers. 320+ files across career strategy, product design, and stakeholder management.</p>
+  <h3>Career OS on Git and Agent Orchestration</h3>
+  <p><strong>Problem:</strong> Career strategy and execution work lived across fragmented tools and ad hoc processes.<br><strong>Action:</strong> Built a structured repo-based operating system with agents, skills, and workflow automation.<br><strong>Outcome:</strong> Improved decision velocity, reduced operational overhead, and created reusable orchestration patterns.</p>
   <span class="tile-meta">Role: Creator, Architect</span>
 </div>
 
 </div>
+
+[Read the case studies →](/ai-first-content-systems/) · [Start the conversation →](/contact/)

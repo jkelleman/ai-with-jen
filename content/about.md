@@ -1,6 +1,6 @@
 ---
 title: "About Jen"
-description: "ML/AI data engineer, speaker, educator. I design the language layer of data infrastructure."
+description: "I design the language systems that make AI products usable and trustworthy."
 layout: "single"
 ---
 
@@ -8,9 +8,11 @@ layout: "single"
 
 ## The short version
 
-I'm a Principal Content Designer at Microsoft, where I own the content design for Fabric Data Engineering — Lakehouse, Materialized Views, Monitoring, and Osmos. I design the naming conventions, glossaries, and error messages for data products used by millions of people.
+I design the language systems that make AI products usable and trustworthy.
 
-I also teach, speak, and write about how terminology governance and semantic contracts reduce failures across data products and AI systems.
+At Microsoft, I work in Fabric Data Engineering, where product complexity is high and ambiguity is expensive. My work sits at the intersection of content design, governance, and system architecture: naming, monitoring language, terminology standards, and AI-assisted workflows that scale across teams.
+
+I focus on one core problem: closing the gap between what data systems mean and what people think they mean. That means turning content from a surface-level artifact into infrastructure teams can rely on.
 
 ---
 
@@ -146,4 +148,4 @@ I'm an active member of the Boston data and AI community:
 
 I'm always interested in speaking opportunities, teaching partnerships, and conversations about terminology governance, AI grounding, and semantic design for data systems.
 
-[Work with me →](/work-with-me/) · [Book me to speak →](/contact/) · [LinkedIn](https://linkedin.com/in/jenkelleman)
+[Book a strategy session →](/services/) · [Invite me to speak →](/speaking/) · [Start the conversation →](/contact/) · [LinkedIn](https://linkedin.com/in/jenkelleman)
