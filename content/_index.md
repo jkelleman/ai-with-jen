@@ -35,15 +35,15 @@ I work best at the intersection of product language, systems thinking, and cross
 	<span class="company-chip"><span class="company-icon">M</span>Microsoft</span>
 	<span class="company-chip"><span class="company-icon">C</span>CVS Health</span>
 	<span class="company-chip"><span class="company-icon">C</span>CaaStle</span>
-	<span class="company-chip"><span class="company-icon">A</span>AT&T</span>
+	<span class="company-chip"><img class="company-logo" src="/img/logos/att.svg" alt="AT&T logo">AT&T</span>
 	<span class="company-chip"><span class="company-icon">J</span>John Hancock Financial Services</span>
-	<span class="company-chip"><span class="company-icon">V</span>Verizon Fio</span>
+	<span class="company-chip"><img class="company-logo" src="/img/logos/verizon.svg" alt="Verizon logo">Verizon Fio</span>
 	<span class="company-chip"><span class="company-icon">K</span>Kidsbooks</span>
 	<span class="company-chip"><span class="company-icon">S</span>SundaySky</span>
 	<span class="company-chip"><span class="company-icon">G</span>Gwynnie Bee</span>
 	<span class="company-chip"><span class="company-icon">U</span>UX Writing Hub</span>
 	<span class="company-chip"><span class="company-icon">C</span>Copilot</span>
-	<span class="company-chip"><span class="company-icon">A</span>American Express</span>
+	<span class="company-chip"><img class="company-logo" src="/img/logos/american-express.svg" alt="American Express logo">American Express</span>
 	<span class="company-chip"><span class="company-icon">R</span>RBC</span>
 </div>
 

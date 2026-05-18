@@ -538,6 +538,15 @@ td strong {
   font-family: var(--font-body);
 }
 
+.company-logo {
+  width: 1.35rem;
+  height: 1.35rem;
+  border-radius: 999px;
+  object-fit: cover;
+  background: var(--color-accent-light);
+  padding: 0.1rem;
+}
+
 /* --- Page (single pages) --- */
 .page {
   max-width: var(--max-width);
