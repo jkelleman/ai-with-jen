@@ -21,6 +21,34 @@ For data teams, engineering leaders, and conference organizers building AI syste
 
 ---
 
+### A little more human
+
+I love the kind of work where a team says, "this is too messy to explain," and we turn it into something clear enough to ship, teach, and trust.
+
+I work best at the intersection of product language, systems thinking, and cross-functional execution. I care about useful clarity, not polished vagueness.
+
+---
+
+### Teams I've worked with
+
+<div class="company-grid">
+	<span class="company-chip"><span class="company-icon">M</span>Microsoft</span>
+	<span class="company-chip"><span class="company-icon">C</span>CVS Health</span>
+	<span class="company-chip"><span class="company-icon">C</span>CaaStle</span>
+	<span class="company-chip"><span class="company-icon">A</span>AT&T</span>
+	<span class="company-chip"><span class="company-icon">J</span>John Hancock Financial Services</span>
+	<span class="company-chip"><span class="company-icon">V</span>Verizon Fio</span>
+	<span class="company-chip"><span class="company-icon">K</span>Kidsbooks</span>
+	<span class="company-chip"><span class="company-icon">S</span>SundaySky</span>
+	<span class="company-chip"><span class="company-icon">G</span>Gwynnie Bee</span>
+	<span class="company-chip"><span class="company-icon">U</span>UX Writing Hub</span>
+	<span class="company-chip"><span class="company-icon">C</span>Copilot</span>
+	<span class="company-chip"><span class="company-icon">A</span>American Express</span>
+	<span class="company-chip"><span class="company-icon">R</span>RBC</span>
+</div>
+
+---
+
 ### What I do
 
 <div class="featured-cards">
