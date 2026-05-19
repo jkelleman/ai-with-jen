@@ -28,7 +28,7 @@ I partner with product, engineering, and design leadership teams that need AI ex
 	<span class="company-chip"><img class="company-logo" src="/img/logos/microsoft.svg" alt="Microsoft Fabric logo">Microsoft Fabric</span>
 	<span class="company-chip"><img class="company-logo" src="/img/logos/cvs-health.ico" alt="CVS Health logo">CVS Health</span>
 	<span class="company-chip"><img class="company-logo" src="/img/logos/minuteclinic.ico" alt="MinuteClinic logo">MinuteClinic</span>
-	<span class="company-chip"><img class="company-logo" src="/img/logos/cvs-health.ico" alt="Over-the-counter Health Solutions logo">Over-the-counter Health Solutions</span>
+	<span class="company-chip"><img class="company-logo" src="/img/logos/cvs-health.ico" alt="OTC Health Solutions logo">OTC Health Solutions</span>
 	<span class="company-chip"><img class="company-logo" src="/img/logos/scholastic.ico" alt="Scholastic Books logo">Scholastic Books</span>
 	<span class="company-chip"><img class="company-logo" src="/img/logos/scholastic.ico" alt="Scholastic Ecommerce logo">Scholastic Ecommerce</span>
 	<span class="company-chip"><img class="company-logo" src="/img/logos/pottery-barn.ico" alt="Pottery Barn logo">Pottery Barn</span>

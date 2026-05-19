@@ -32,7 +32,7 @@ Logos are trademarks of their owners; replace with official brand-kit assets for
 - SundaySky: sundaysky.ico (https://icons.duckduckgo.com/ip3/sundaysky.com.ico)
 - Gwynnie Bee: missing
 - UX Writing Hub: ux-writing-hub.ico (https://icons.duckduckgo.com/ip3/uxwritinghub.com.ico)
-- Copilot: copilot.ico (https://icons.duckduckgo.com/ip3/microsoft.com.ico)
+- Microsoft Copilot: copilot.ico (https://icons.duckduckgo.com/ip3/microsoft.com.ico)
 - RBC: rbc.ico (https://icons.duckduckgo.com/ip3/rbc.com.ico)
 
 ## Phase 3 Fetch Results

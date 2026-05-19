@@ -569,7 +569,7 @@ td strong {
   background: #FFFFFF;
   border: 1px solid #DAD7D0;
   padding: 0.08rem;
-  filter: grayscale(100%) contrast(1.06);
+  filter: none;
 }
 
 .home-cta {
