@@ -58,7 +58,7 @@ I help enterprise teams ship AI experiences that are clearer to use, faster to a
 <img src="/img/research-process.jpg" alt="Research and content strategy artifacts used to shape product language systems" class="card-img">
 
 #### [Work](/work/)
-Review case studies from shipped enterprise product systems.
+For proof from shipped enterprise product systems.
 </div>
 
 <div class="featured-card">
