@@ -29,7 +29,7 @@ I partner with product, engineering, and design leadership teams that need AI ex
 	<span class="company-chip"><img class="company-logo" src="/img/logos/caastle.ico" alt="CaaStle logo">CaaStle</span>
 	<span class="company-chip"><img class="company-logo" src="/img/logos/att.svg" alt="AT&T logo">AT&T</span>
 	<span class="company-chip"><img class="company-logo" src="/img/logos/john-hancock.ico" alt="John Hancock Financial Services logo">John Hancock Financial Services</span>
-	<span class="company-chip"><img class="company-logo" src="/img/logos/verizon.svg" alt="Verizon logo">Verizon Fio</span>
+	<span class="company-chip"><img class="company-logo" src="/img/logos/verizon.svg" alt="Verizon logo">Verizon FiOS</span>
 	<span class="company-chip"><img class="company-logo" src="/img/logos/kidsbooks.ico" alt="Kidsbooks logo">Kidsbooks</span>
 	<span class="company-chip"><img class="company-logo" src="/img/logos/sundaysky.ico" alt="SundaySky logo">SundaySky</span>
 	<span class="company-chip"><span class="company-icon">G</span>Gwynnie Bee</span>
@@ -72,4 +72,7 @@ Engage strategic support for AI content systems and governance.
 
 ---
 
-[Read the case studies →](/work/)  ·  [Start the conversation →](/contact/)
+<div class="home-cta">
+	<a class="home-cta-primary" href="/contact/">Start the conversation</a>
+	<a class="home-cta-secondary" href="/work/">Read the case studies</a>
+</div>
