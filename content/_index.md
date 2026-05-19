@@ -4,28 +4,20 @@ description: "I help AI products say what they mean, so people trust what they d
 layout: "home"
 ---
 
-## I help AI products say what they mean, so people trust what they do.
+## I design enterprise AI language systems that improve clarity, adoption, and trust.
 
-Principal Content Designer at Microsoft designing the language systems that make AI and data products clear, consistent, and usable at scale.
+Principal Content Designer at Microsoft focused on product language for AI and data platforms, including naming, guidance, monitoring communication, and system-level content standards.
 
-For data teams, engineering leaders, and conference organizers building AI systems people can actually trust.
+I partner with product, engineering, and design leadership teams that need AI experiences to be understandable, dependable, and ready to scale.
 
 ---
 
-### Proof
+### Enterprise impact
 
 - Principal Content Designer, Microsoft Fabric Data Engineering
-- Content systems for AI monitoring, naming, and trust signals
-- Conference talks and practitioner education in AI/content design
-- Agentic workflow builder with production-scale documentation and governance patterns
-
----
-
-### A little more human
-
-I love the kind of work where a team says, "this is too messy to explain," and we turn it into something clear enough to ship, teach, and trust.
-
-I work best at the intersection of product language, systems thinking, and cross-functional execution. I care about useful clarity, not polished vagueness.
+- Built content systems for AI monitoring, terminology, and trust signals
+- Drives cross-functional alignment across design, PM, and engineering
+- Delivers frameworks teams can operationalize across products and releases
 
 ---
 
@@ -51,7 +43,7 @@ I work best at the intersection of product language, systems thinking, and cross
 
 ### What I do
 
-If you're building AI experiences and want them to feel clear, credible, and actually useful, this is where I can help.
+I help enterprise teams ship AI experiences that are clearer to use, faster to adopt, and easier to govern.
 
 <div class="featured-cards">
 
@@ -59,21 +51,21 @@ If you're building AI experiences and want them to feel clear, credible, and act
 <img src="/img/research-process.jpg" alt="Research and content strategy artifacts used to shape product language systems" class="card-img">
 
 #### [Work](/work/)
-Explore case studies from real product systems.
+Review case studies from shipped enterprise product systems.
 </div>
 
 <div class="featured-card">
 <img src="/img/speaking.jpg" alt="Jen Kelleman speaking at Microsoft x Red Bull Startup Innovation Labs" class="card-img">
 
 #### [Speaking](/speaking/)
-Bring me in for talks and hands-on workshops.
+Book executive briefings, conference talks, and practitioner workshops.
 </div>
 
 <div class="featured-card">
 <img src="/img/course.jpg" alt="Audience participating in an AI content design workshop" class="card-img">
 
 #### [Services](/services/)
-Book strategic support for your team.
+Engage strategic support for AI content systems and governance.
 </div>
 
 </div>
