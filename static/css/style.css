@@ -489,8 +489,14 @@ td strong {
   width: 100%;
   height: 180px;
   object-fit: cover;
+  object-position: center;
   display: block;
   filter: saturate(0.8) contrast(1.04) brightness(0.94);
+}
+
+/* Speaking card crop: keep Jen centered and trim distracting edge content */
+.featured-cards .featured-card:nth-child(2) .card-img {
+  object-position: 66% 22%;
 }
 
 .featured-card h4 {
