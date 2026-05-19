@@ -496,7 +496,7 @@ td strong {
 
 /* Speaking card crop: keep Jen centered and trim distracting edge content */
 .featured-cards .featured-card:nth-child(2) .card-img {
-  object-position: 86% 20%;
+  object-position: 74% 20%;
   transform: scale(1.12);
   transform-origin: center;
 }
