@@ -19,7 +19,7 @@ Curated case studies spanning terminology research, content architecture, and ag
   <h3>Data Agents Naming and Terminology System</h3>
   <p><strong>Problem:</strong> Teams couldn't align on a product name. Too many options, too many competing stakeholders.<br><strong>Action:</strong> Ran a rigorous evaluation study — 60+ candidates scored against a structured constraint framework, validated by survey.<br><strong>Outcome:</strong> Moved the team from deadlock to decision with a structured, evidence-backed recommendation.</p>
   <span class="tile-meta">Role: Content Design Lead, Research Owner</span>
-  <p><a href="/data-agents-naming-terminology-system/">Request full case study →</a></p>
+  <p>Request full case study</p>
 </div>
 
 <div class="article-tile">
@@ -27,7 +27,7 @@ Curated case studies spanning terminology research, content architecture, and ag
   <h3>Notebook Dependencies and Monitoring IA</h3>
   <p><strong>Problem:</strong> Monitoring workflows were hard to scan and dependency status was unclear.<br><strong>Action:</strong> Reworked information architecture, status taxonomy, and guidance content for monitoring surfaces.<br><strong>Outcome:</strong> Covered 9 lineage scenarios with a redesigned status taxonomy, sharpening signal clarity during live incident response.</p>
   <span class="tile-meta">Role: Content Designer, IA Lead</span>
-  <p><a href="/notebook-dependencies-monitoring-ia/">Request full case study →</a></p>
+  <p>Request full case study</p>
 </div>
 
 <div class="article-tile">
@@ -35,7 +35,7 @@ Curated case studies spanning terminology research, content architecture, and ag
   <h3>AI-First Content Systems</h3>
   <p><strong>Problem:</strong> AI-assisted content workflows lacked governance, consistency, and quality controls.<br><strong>Action:</strong> Built system-level content patterns and governance structures for scalable authoring.<br><strong>Outcome:</strong> Cut content creation cycle time by 25% and extended terminology governance to 24+ languages, making AI-assisted authoring faster and safer.</p>
   <span class="tile-meta">Role: Principal Content Designer</span>
-  <p><a href="/ai-first-content-systems/">Request full case study →</a></p>
+  <p>Request full case study</p>
 </div>
 
 <div class="article-tile">
@@ -43,6 +43,7 @@ Curated case studies spanning terminology research, content architecture, and ag
   <h3>Career OS on Git and Agent Orchestration</h3>
   <p><strong>Problem:</strong> Career strategy and execution work lived across fragmented tools and ad hoc processes.<br><strong>Action:</strong> Built a structured repo-based operating system with agents, skills, and workflow automation.<br><strong>Outcome:</strong> Deployed 8 custom agents across 320+ versioned files, turning a fragmented workflow into a scalable orchestration system.</p>
   <span class="tile-meta">Role: Creator, Architect</span>
+  <p>Request full case study</p>
 </div>
 
 </div>

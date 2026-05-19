@@ -6,6 +6,8 @@ layout: "single"
 
 ## Background
 
+> Draft case study. Content and framing are still being refined.
+
 A new AI data product needed a name and terminology system that could scale across surfaces, documentation, and onboarding. The team had many candidate names but no durable way to evaluate tradeoffs, and naming decisions were stalling downstream design and implementation.
 
 ## Data

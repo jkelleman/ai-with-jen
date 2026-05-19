@@ -6,6 +6,8 @@ layout: "single"
 
 ## Background
 
+> Draft case study. Content and framing are still being refined.
+
 AI-assisted content work was scaling faster than governance, creating inconsistency, trust risk, and fragmented knowledge workflows.
 
 ## Data

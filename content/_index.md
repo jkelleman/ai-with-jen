@@ -25,7 +25,6 @@ I partner with product, engineering, and design leadership teams that need AI ex
 
 <div class="company-grid">
 	<span class="company-chip"><img class="company-logo" src="/img/logos/microsoft.svg" alt="Microsoft Fabric logo">Microsoft Fabric</span>
-	<span class="company-chip"><img class="company-logo" src="/img/logos/microsoft.svg" alt="Microsoft logo">Microsoft</span>
 	<span class="company-chip"><img class="company-logo" src="/img/logos/copilot.ico" alt="Microsoft Copilot logo">Microsoft Copilot</span>
 	<span class="company-chip"><img class="company-logo" src="/img/logos/att.svg" alt="AT&T logo">AT&T</span>
 	<span class="company-chip"><img class="company-logo" src="/img/logos/verizon.svg" alt="Verizon logo">Verizon FiOS</span>
@@ -44,6 +43,30 @@ I partner with product, engineering, and design leadership teams that need AI ex
 	<span class="company-chip"><img class="company-logo" src="/img/logos/scholastic.ico" alt="Scholastic Books logo">Scholastic Books</span>
 	<span class="company-chip"><img class="company-logo" src="/img/logos/kidsbooks.ico" alt="Kidsbooks logo">Kidsbooks</span>
 	<span class="company-chip"><span class="company-icon">G</span>Gwynnie Bee</span>
+</div>
+
+---
+
+### How I do it
+
+Tools I use to design, evaluate, and ship world-class AI experiences with clarity, quality, and trust built in.
+
+<div class="company-grid">
+	<span class="company-chip"><span class="company-icon">GC</span>GitHub Copilot</span>
+	<span class="company-chip"><span class="company-icon">VS</span>VS Studio</span>
+	<span class="company-chip"><span class="company-icon">AF</span>Azure AI Foundry</span>
+	<span class="company-chip"><span class="company-icon">AO</span>Azure OpenAI Service</span>
+	<span class="company-chip"><span class="company-icon">AI</span>Azure AI Search</span>
+	<span class="company-chip"><span class="company-icon">OA</span>OpenAI API</span>
+	<span class="company-chip"><span class="company-icon">CL</span>Claude</span>
+	<span class="company-chip"><span class="company-icon">LM</span>LangChain</span>
+	<span class="company-chip"><span class="company-icon">LG</span>LangGraph</span>
+	<span class="company-chip"><span class="company-icon">LM</span>LlamaIndex</span>
+	<span class="company-chip"><span class="company-icon">DK</span>DSPy</span>
+	<span class="company-chip"><span class="company-icon">SB</span>Semantic Kernel</span>
+	<span class="company-chip"><span class="company-icon">ML</span>MLflow</span>
+	<span class="company-chip"><span class="company-icon">WB</span>Weights & Biases</span>
+	<span class="company-chip"><span class="company-icon">HF</span>Hugging Face</span>
 </div>
 
 ---

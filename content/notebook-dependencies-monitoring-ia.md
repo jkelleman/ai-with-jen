@@ -6,6 +6,8 @@ layout: "single"
 
 ## Background
 
+> Draft case study. Content and framing are still being refined.
+
 Teams running orchestrated, multi-notebook workflows in Fabric lacked clear run-level visibility into dependency chains. Existing monitoring surfaces showed top-level items but did not reliably expose child notebook execution context, causing friction during debugging and incident response.
 
 ## Data
