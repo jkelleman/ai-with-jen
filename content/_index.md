@@ -65,14 +65,14 @@ Review case studies from shipped enterprise product systems.
 <img src="/img/speaking.jpg" alt="Jen Kelleman speaking at Microsoft x Red Bull Startup Innovation Labs" class="card-img">
 
 #### [Speaking](/speaking/)
-Book executive briefings, conference talks, and practitioner workshops.
+For conferences, keynotes, and team workshops.
 </div>
 
 <div class="featured-card">
 <img src="/img/course.jpg" alt="Audience participating in an AI content design workshop" class="card-img">
 
-#### [Services](/services/)
-Engage strategic support for AI content systems and governance.
+#### [Advisory](/services/)
+For embedded support on AI content systems and governance.
 </div>
 
 </div>
