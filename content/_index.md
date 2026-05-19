@@ -51,27 +51,29 @@ I work best at the intersection of product language, systems thinking, and cross
 
 ### What I do
 
+If you're building AI experiences and want them to feel clear, credible, and actually useful, this is where I can help.
+
 <div class="featured-cards">
 
 <div class="featured-card">
-<img src="/img/speaking.jpg" alt="Jen Kelleman speaking at Microsoft × Red Bull Startup Innovation Labs" class="card-img">
+<img src="/img/research-process.jpg" alt="Research and content strategy artifacts used to shape product language systems" class="card-img">
 
 #### [Work](/work/)
-See the work behind the systems.
+Explore case studies from real product systems.
 </div>
 
 <div class="featured-card">
-<img src="/img/course.jpg" alt="Audience at Microsoft NERD Center workshop" class="card-img">
+<img src="/img/speaking.jpg" alt="Jen Kelleman speaking at Microsoft x Red Bull Startup Innovation Labs" class="card-img">
 
 #### [Speaking](/speaking/)
-Invite me to speak.
+Bring me in for talks and hands-on workshops.
 </div>
 
 <div class="featured-card">
-<img src="/img/articles-fiber.jpg" alt="Fiber optic infrastructure — signal through the system" class="card-img">
+<img src="/img/course.jpg" alt="Audience participating in an AI content design workshop" class="card-img">
 
 #### [Services](/services/)
-Book a strategy session.
+Book strategic support for your team.
 </div>
 
 </div>
