@@ -1,5 +1,5 @@
 ---
-title: "Osmos Naming and Terminology System"
+title: "Data Agents Naming and Terminology System"
 description: "How structured naming research resolved product-language deadlock and created a repeatable terminology model."
 layout: "single"
 ---

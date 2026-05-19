@@ -6,7 +6,7 @@ layout: "home"
 
 ## I design enterprise AI language systems that improve clarity, adoption, and trust.
 
-Principal Content Designer at Microsoft focused on product language for AI and data platforms, including naming, guidance, monitoring communication, and system-level content standards.
+Carnegie Mellon trained data scientist and AI/ML data engineer.
 
 I partner with product, engineering, and design leadership teams that need AI experiences to be understandable, dependable, and ready to scale.
 
@@ -14,7 +14,7 @@ I partner with product, engineering, and design leadership teams that need AI ex
 
 ### Enterprise impact
 
-- Principal Content Designer, Microsoft Fabric Data Engineering
+- Carnegie Mellon trained data scientist and AI/ML data engineer
 - Built content systems for AI monitoring, terminology, and trust signals
 - Drives cross-functional alignment across design, PM, and engineering
 - Delivers frameworks teams can operationalize across products and releases
