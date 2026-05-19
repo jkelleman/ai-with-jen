@@ -32,19 +32,19 @@ I work best at the intersection of product language, systems thinking, and cross
 ### Teams I've worked with
 
 <div class="company-grid">
-	<span class="company-chip"><span class="company-icon">M</span>Microsoft</span>
-	<span class="company-chip"><span class="company-icon">C</span>CVS Health</span>
-	<span class="company-chip"><span class="company-icon">C</span>CaaStle</span>
+	<span class="company-chip"><img class="company-logo" src="/img/logos/microsoft.svg" alt="Microsoft logo">Microsoft</span>
+	<span class="company-chip"><img class="company-logo" src="/img/logos/cvs-health.ico" alt="CVS Health logo">CVS Health</span>
+	<span class="company-chip"><img class="company-logo" src="/img/logos/caastle.ico" alt="CaaStle logo">CaaStle</span>
 	<span class="company-chip"><img class="company-logo" src="/img/logos/att.svg" alt="AT&T logo">AT&T</span>
-	<span class="company-chip"><span class="company-icon">J</span>John Hancock Financial Services</span>
+	<span class="company-chip"><img class="company-logo" src="/img/logos/john-hancock.ico" alt="John Hancock Financial Services logo">John Hancock Financial Services</span>
 	<span class="company-chip"><img class="company-logo" src="/img/logos/verizon.svg" alt="Verizon logo">Verizon Fio</span>
-	<span class="company-chip"><span class="company-icon">K</span>Kidsbooks</span>
-	<span class="company-chip"><span class="company-icon">S</span>SundaySky</span>
+	<span class="company-chip"><img class="company-logo" src="/img/logos/kidsbooks.ico" alt="Kidsbooks logo">Kidsbooks</span>
+	<span class="company-chip"><img class="company-logo" src="/img/logos/sundaysky.ico" alt="SundaySky logo">SundaySky</span>
 	<span class="company-chip"><span class="company-icon">G</span>Gwynnie Bee</span>
-	<span class="company-chip"><span class="company-icon">U</span>UX Writing Hub</span>
-	<span class="company-chip"><span class="company-icon">C</span>Copilot</span>
+	<span class="company-chip"><img class="company-logo" src="/img/logos/ux-writing-hub.ico" alt="UX Writing Hub logo">UX Writing Hub</span>
+	<span class="company-chip"><img class="company-logo" src="/img/logos/copilot.ico" alt="Copilot logo">Copilot</span>
 	<span class="company-chip"><img class="company-logo" src="/img/logos/american-express.svg" alt="American Express logo">American Express</span>
-	<span class="company-chip"><span class="company-icon">R</span>RBC</span>
+	<span class="company-chip"><img class="company-logo" src="/img/logos/rbc.ico" alt="RBC logo">RBC</span>
 </div>
 
 ---

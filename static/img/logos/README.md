@@ -1,23 +1,32 @@
 # Logo Assets
 
-Downloaded from Simple Icons CDN where available. Logos are trademarks of their owners.
-Use official brand kits for production/legal-safe replacements when required.
+Downloaded from public endpoints for prototype use only.
+Logos are trademarks of their owners; replace with official brand-kit assets for final production.
 
-## Downloaded
+## Available Assets
 
-- AT&T: att.svg
-- Verizon Fio: verizon.svg
-- American Express: american-express.svg
+- american-express.svg
+- att.svg
+- caastle.ico
+- copilot.ico
+- cvs-health.ico
+- john-hancock.ico
+- kidsbooks.ico
+- microsoft.svg
+- rbc.ico
+- sundaysky.ico
+- ux-writing-hub.ico
+- verizon.svg
 
-## Missing (manual source needed)
+## Phase 2 Fetch Results
 
-- Microsoft
-- CVS Health
-- CaaStle
-- John Hancock Financial Services
-- Kidsbooks
-- SundaySky
-- Gwynnie Bee
-- UX Writing Hub
-- Copilot
-- RBC
+- Microsoft: microsoft.svg (https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/microsoft.svg)
+- CVS Health: cvs-health.ico (https://icons.duckduckgo.com/ip3/cvshealth.com.ico)
+- CaaStle: caastle.ico (https://icons.duckduckgo.com/ip3/caastle.com.ico)
+- John Hancock Financial Services: john-hancock.ico (https://icons.duckduckgo.com/ip3/johnhancock.com.ico)
+- Kidsbooks: kidsbooks.ico (https://icons.duckduckgo.com/ip3/kidsbooks.com.ico)
+- SundaySky: sundaysky.ico (https://icons.duckduckgo.com/ip3/sundaysky.com.ico)
+- Gwynnie Bee: missing
+- UX Writing Hub: ux-writing-hub.ico (https://icons.duckduckgo.com/ip3/uxwritinghub.com.ico)
+- Copilot: copilot.ico (https://icons.duckduckgo.com/ip3/microsoft.com.ico)
+- RBC: rbc.ico (https://icons.duckduckgo.com/ip3/rbc.com.ico)
