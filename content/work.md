@@ -19,7 +19,7 @@ Case studies spanning terminology research, content architecture, and agentic AI
   <h3>Osmos Naming and Terminology System</h3>
   <p><strong>Problem:</strong> Teams faced naming deadlock across dozens of options and conflicting constraints.<br><strong>Action:</strong> Designed a structured research and evaluation model to compare candidates and align stakeholders.<br><strong>Outcome:</strong> Drove decision clarity, reduced ambiguity in product language, and established a repeatable naming method.</p>
   <span class="tile-meta">Role: Content Design Lead, Research Owner</span>
-  <p><a href="/osmos-naming-terminology-system/">Read full case study →</a></p>
+  <p><a href="/osmos-naming-terminology-system/">Request full case study →</a></p>
 </div>
 
 <div class="article-tile">
@@ -27,7 +27,7 @@ Case studies spanning terminology research, content architecture, and agentic AI
   <h3>Notebook Dependencies and Monitoring IA</h3>
   <p><strong>Problem:</strong> Monitoring workflows were hard to scan and dependency status was unclear.<br><strong>Action:</strong> Reworked information architecture, status taxonomy, and guidance content for monitoring surfaces.<br><strong>Outcome:</strong> Improved signal clarity for troubleshooting and created a more actionable monitoring experience.</p>
   <span class="tile-meta">Role: Content Designer, IA Lead</span>
-  <p><a href="/notebook-dependencies-monitoring-ia/">Read full case study →</a></p>
+  <p><a href="/notebook-dependencies-monitoring-ia/">Request full case study →</a></p>
 </div>
 
 <div class="article-tile">
@@ -35,7 +35,7 @@ Case studies spanning terminology research, content architecture, and agentic AI
   <h3>AI-First Content Systems</h3>
   <p><strong>Problem:</strong> AI-assisted content workflows lacked governance, consistency, and quality controls.<br><strong>Action:</strong> Built system-level content patterns and governance structures for scalable authoring.<br><strong>Outcome:</strong> Increased consistency, reduced content risk, and enabled safer AI-assisted production.</p>
   <span class="tile-meta">Role: Principal Content Designer</span>
-  <p><a href="/ai-first-content-systems/">Read full case study →</a></p>
+  <p><a href="/ai-first-content-systems/">Request full case study →</a></p>
 </div>
 
 <div class="article-tile">
