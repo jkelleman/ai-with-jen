@@ -2,25 +2,26 @@
   <div class="footer-inner">
     <div class="footer-brand">
       <a href="/" class="footer-logo">AI with Jen</a>
-      <p class="footer-tagline">ML/AI data engineer · Speaker · Educator</p>
-      <p class="footer-tagline">I design the language layer of data infrastructure.</p>
+      <p class="footer-kicker">AI systems designer · Speaker · Educator</p>
+      <p class="footer-tagline">I design the language system of AI and data products.</p>
+      <p class="footer-note">Working at the intersection of content design, agentic systems, and product trust.</p>
     </div>
     <div class="footer-links">
       <div class="footer-col">
-        <h4 class="footer-heading">Explore</h4>
+        <h4 class="footer-heading">Site</h4>
         {{ range .Site.Menus.footer }}
           <a href="{{ .URL }}">{{ .Name }}</a>
         {{ end }}
       </div>
       <div class="footer-col">
         <h4 class="footer-heading">Connect</h4>
-        <a href="https://github.com/jkelleman" target="_blank" rel="noopener">GitHub</a>
-        <a href="https://jenkelleman.medium.com" target="_blank" rel="noopener">Medium</a>
-        <a href="https://linkedin.com/in/jenkelleman" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="https://sessionize.com/jen-kelleman/" target="_blank" rel="noopener">Sessionize</a>
         <a href="mailto:jen@aiwithjen.com">Email</a>
+        <a href="https://linkedin.com/in/jenkelleman" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/jkelleman" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://sessionize.com/jen-kelleman/" target="_blank" rel="noopener">Sessionize</a>
+        <a href="https://jenkelleman.medium.com" target="_blank" rel="noopener">Medium</a>
       </div>
     </div>
   </div>
-  <p class="footer-copy">&copy; {{ now.Year }} Jen Kelleman. All rights reserved.</p>
+  <p class="footer-copy">&copy; {{ now.Year }} Jen Kelleman. Built to share selected work, speaking, and practical AI systems thinking.</p>
 </footer>

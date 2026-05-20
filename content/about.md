@@ -1,6 +1,6 @@
 ---
 title: "About Jen"
-description: "ML/AI data engineer, speaker, educator. I design the language layer of data infrastructure."
+description: "AI systems designer, speaker, educator. I design the language system of AI and data products."
 layout: "single"
 ---
 
@@ -65,11 +65,7 @@ I thrive in 0→1 environments, designing the human layer of agentic AI systems 
 
 ## What I do
 
-I name things for a living. Column names, error messages, glossaries, metrics definitions — the words that sit between raw data and the people who need to use it.
-
-Most of the time, when a data product confuses someone, it's not a model problem. It's a naming problem. A documentation problem. A "what does this column actually mean?" problem. That's what I fix.
-
-At Microsoft, I own that for Fabric Data Engineering — 15+ years building content-driven interfaces, AI agent orchestration, MCP architecture, and terminology systems for enterprise platforms. I ship content design for autonomous AI features, lead cross-stakeholder naming research through Technical Fellow and CVP approval gates, and build the evaluation rubrics, grounding rules, and terminology systems that AI-assisted features depend on.
+I name things for a living — column names, error messages, glossaries, metrics definitions — the words that sit between raw data and the people who need to use it. When a data product confuses someone, it's almost never a model problem. It's a naming problem. At Microsoft, I own that for Fabric Data Engineering: 15+ years shipping content design for autonomous AI features, leading cross-stakeholder naming research through Technical Fellow and CVP approval gates, and building the terminology systems that AI-assisted features depend on.
 
 ---
 
@@ -79,70 +75,38 @@ At Microsoft, I own that for Fabric Data Engineering — 15+ years building cont
 >
 > **— Satya Nadella**, Microsoft CEO
 
-- **Most hallucinations trace back to the semantic layer.** When a column called `amt` gets grounded as "amount," "amendment," or "amortization," the ambiguous schema is the bug. Fix the terminology and you eliminate a class of failures no prompt engineering can touch.
-- **Schema is a vocabulary the model has to learn cold.** Every table name, column label, and foreign key is a token the model either resolves correctly or hallucinates around. Inconsistent naming across tables is the same class of bug as inconsistent variable naming in a codebase — except it fails at inference time.
-- **Docs that can't be parsed, grounded, and evaluated programmatically are technical debt.** AI-accessible content means structured metadata, explicit entity relationships, and evaluation rubrics that return a score. Same bar you'd set for any API contract.
-- **Descriptive naming and inline documentation are input features.** The most important line in a data pipeline is the one that explains what it does — and that line is now the one the model reads first.
-- **Multi-agent systems fail at handoff boundaries.** When two agents don't share a common ontology, orchestration breaks down — the agents are operating on incompatible definitions of the task.
-- **The best systems reduce support load by building user capability.** Scaffolded interactions that teach a user to write their own DAX query outperform ones that just return an answer — measured in repeat-query rate and task completion without re-prompting.
+- **Most hallucinations trace back to the semantic layer.** A column called `amt` that gets grounded as "amount," "amendment," or "amortization" is a terminology bug, not a model bug. Fix the naming and you eliminate a class of failures no prompt engineering can touch.
+- **Multi-agent systems fail at handoff boundaries.** When two agents don't share a common ontology, orchestration breaks down — they're operating on incompatible definitions of the task.
+- **The best systems build user capability, not dependency.** Scaffolded interactions that teach a user to write their own DAX query outperform ones that just return an answer — measured in repeat-query rate and task completion without re-prompting.
 
 ---
 
 ## What I've built
 
-**Systems & Governance**
 - **Terminology governance systems** for Microsoft Fabric Data Engineering — canonical language for Lakehouse, Materialized Views, Monitoring, and Osmos
-- **AI-First Design Review framework** — a governance model making AI influence explicit in design reviews, pitched to leadership as a funded pilot
-- **KB audit and restructure** — 117 → 66 files, full quality governance model
-- **Content + AI Operating Model** — a 3-layer system (Explore → Iterate → Scale) producing reusable glossaries, evaluation rubrics, and onboarding templates consumed across four product areas
-
-**Workshops & Frameworks**
+- **AI-First Design Review framework** — governance model making AI influence explicit in design reviews, pitched to leadership as a funded pilot
+- **Content + AI Operating Model** — a 3-layer system (Explore → Iterate → Scale) producing reusable glossaries, evaluation rubrics, and onboarding templates across four product areas
 - **Promptcraft** — prompt engineering workshop delivered to ~50 designers
-- **Stringweaver** — LLM governance framework for voice consistency at scale
-- **"AI or Me?" delegation framework** — systematic AI task delegation, built in a 2-hour hackathon sprint
-- **Clarity Delta** — evaluation metric that scores AI output on terminology accuracy, grounding fidelity, and task completion
-- **Full-Stack Data Clarity** — a university course framework where students build glossaries, write error messages, and design naming systems for real data pipelines
-
-**Hackathon Projects**
-- **VibeHub** — co-led a platform for democratizing UX engineering; 2,000+ projects in production, organic adoption across the design org
-- **Deaf-Led Sign Language Experiences** — 3 workstreams, executive award continuation
-- **FlareIQ** — smart ring + AI Copilot concept
-- **EduGrant Agent** — and more across 5+ hackathons
+- **Clarity Delta** — evaluation metric scoring AI output on terminology accuracy, grounding fidelity, and task completion
+- **VibeHub** — co-led a platform for democratizing UX engineering; 2,000+ projects in production *(3× Microsoft Global Hackathon executive awards)*
+- **Deaf-Led Sign Language Experiences** — 3 workstreams, Ability Executive Challenge winner
 
 ---
 
-## Awards & recognition
-
-- **3× Microsoft Global Hackathon executive awards** — multi-year mentor and participant
-- **Ability Executive Challenge winner** — Deaf-Led Sign Language Experiences foundation project
-- **VibeHub** — 2,000+ projects in production; cited by senior design leadership as "one of the most gamechanging things at Microsoft recently"
-- **FlareIQ** — internal recognition for smart ring + AI Copilot concept
-
----
-
-## Leadership & development
-
-- **Leading the Future (LTF)** — Microsoft's Stage 3→4 leadership progression program
-- **EZRA Executive Coaching** — 1:1 executive coaching focused on strategic influence and stakeholder navigation
-- **Azure Data Engineer Associate** — certification in progress (target: June 2026)
-- **AI-900: Microsoft Azure AI Fundamentals** — certified
-
----
-
-## Education
+## Education & credentials
 
 <div class="edu-two-col">
 <div class="edu-col">
 <h4>AI & Data</h4>
 
 <div class="edu-item">
-<strong>Tufts University</strong>
-<span>MS, Computer Science</span>
+<strong>Carnegie Mellon University</strong>
+<span>MS, Data Science</span>
 </div>
 
 <div class="edu-item">
-<strong>Carnegie Mellon University</strong>
-<span>MS, Data Science</span>
+<strong>Tufts University</strong>
+<span>MS, Computer Science (in progress)</span>
 </div>
 
 <div class="edu-item">
@@ -152,7 +116,7 @@ At Microsoft, I own that for Fabric Data Engineering — 15+ years building cont
 
 </div>
 <div class="edu-col">
-<h4>UX</h4>
+<h4>UX & Communication</h4>
 
 <div class="edu-item">
 <strong>Emerson College</strong>
@@ -178,21 +142,30 @@ At Microsoft, I own that for Fabric Data Engineering — 15+ years building cont
 </div>
 </div>
 
----
-
-## Boston tech community
-
-I'm an active member of the Boston data and AI community:
-
-- **[Boston PyLadies](https://pyladies.com/)** — member and workshop leader
-- **[Boston PyData](https://pydata.org/)** — member and speaker
-
-[See where I've spoken →](/speaking/)
+<div class="cert-badges">
+  <div class="cert-badge">
+    <img src="/img/logos/github-foundations.png" alt="GitHub Foundations certification badge">
+    <span>GitHub Foundations</span>
+  </div>
+  <div class="cert-badge">
+    <img src="/img/logos/azure-ai-fundamentals.svg" alt="Microsoft Azure AI Fundamentals certification badge">
+    <span>AI-900: Azure AI Fundamentals</span>
+  </div>
+  <div class="cert-badge">
+    <img src="/img/logos/korn-ferry.png" alt="Korn Ferry logo">
+    <span>Korn Ferry: Leading the Future</span>
+  </div>
+</div>
 
 ---
 
 ## Let's connect
 
-I'm always interested in speaking opportunities, teaching partnerships, and conversations about terminology governance, AI grounding, and semantic design for data systems.
+Active in the Boston data and AI community through **[Boston PyLadies](https://pyladies.com/)** and **[Boston PyData](https://pydata.org/)**. Always interested in speaking opportunities, teaching partnerships, and conversations about terminology governance, AI grounding, and semantic design.
 
-[Work with me →](/work-with-me/) · [Book me to speak →](/contact/) · [LinkedIn](https://linkedin.com/in/jenkelleman)
+<div class="connect-links">
+  <a href="/work-with-me/">Work with me →</a>
+  <a href="/contact/">Book me to speak →</a>
+  <a href="/speaking/">See where I've spoken →</a>
+  <a href="https://linkedin.com/in/jenkelleman">LinkedIn</a>
+</div>
