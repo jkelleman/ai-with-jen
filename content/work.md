@@ -14,6 +14,7 @@ layout: "single"
   <div class="project-header">
     <h4>Terminology Governance Systems</h4>
     <span class="project-scope">Microsoft Fabric Data Engineering</span>
+    <span class="project-badge">Empowered millions to build and automate with clarity and confidence</span>
   </div>
   <p>Canonical language for Lakehouse, Materialized Views, Monitoring, and agentic AI experiences. The naming layer that AI grounding depends on.</p>
 </div>
@@ -30,6 +31,7 @@ layout: "single"
   <div class="project-header">
     <h4>Content + AI Operating Model</h4>
     <span class="project-scope">Explore → Iterate → Scale</span>
+    <span class="project-badge">Bridged the gap between content design and machine learning</span>
   </div>
   <p>3-layer system producing reusable glossaries, evaluation rubrics, and onboarding templates across four product areas.</p>
 </div>
@@ -46,6 +48,7 @@ layout: "single"
   <div class="project-header">
     <h4>Promptcraft</h4>
     <span class="project-scope">Workshop</span>
+    <span class="project-badge">Chosen for Microsoft Design Week 2025</span>
   </div>
   <p>Prompt engineering workshop teaching designers to get better AI output.</p>
   <div class="project-stat">
