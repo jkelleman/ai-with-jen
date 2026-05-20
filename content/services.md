@@ -1,69 +1,49 @@
 ---
-title: "Services"
-description: "Speaking, teaching, consulting, and advising — ways to work with Jen Kelleman."
+title: "Work with Jen"
+description: "I work with data teams, design orgs, and universities to close the gap between what data means and what people think it means."
 layout: "single"
 ---
 
-> "A schema is a theory about the world, and like all theories, it can be wrong."
->
-> **— Joe Hellerstein**, UC Berkeley, database systems researcher
-
-## I work with data teams, design orgs, and universities to close the gap between what data means and what people think it means.
-
 Every engagement starts with a conversation. Here's how we can work together.
 
----
+<div class="services-grid">
 
-### Speaking
+<div class="service-card">
+<h3>Speaking</h3>
+<p>Keynotes, panels, and workshops on AI systems design, content infrastructure, and the semantic layer. Real stories from designing at Microsoft. Not theory, not hype.</p>
+<p>Past topics include naming autonomous AI products, building trust signals into agentic UX, and designing content systems that scale across 24 languages. Available for conferences, offsites, and internal summits.</p>
+<a href="/speaking/" class="service-cta">See my talks →</a>
+</div>
 
-Keynotes, panels, and workshops on AI systems design, content infrastructure, and the semantic layer. Real stories from designing at Microsoft — not theory, not hype.
+<div class="service-card">
+<h3>Teaching</h3>
+<p>University courses and professional workshops at the intersection of content design and data engineering. I teach people how to think about the language layer of data products: the words, structures, and mental models that make complex systems learnable.</p>
+<p>My flagship course, <em>Full-Stack Data Clarity</em>, is pitched for Fall 2026. It covers terminology systems, information architecture for data platforms, and designing content that survives translation and AI summarization.</p>
+<a href="/courses/" class="service-cta">See the course →</a>
+</div>
 
-[See my talks →](/speaking/)
+<div class="service-card">
+<h3>Consulting & Advisory</h3>
+<p>Terminology audits, naming system design, and data product content strategy. I evaluate your product's content layer and deliver actionable recommendations grounded in user research. Think error messages, empty states, taxonomy labels, and metric naming.</p>
+<p>Engagements range from one-time audits with a style guide deliverable to ongoing advisory partnerships for teams expanding into data products and AI-assisted analytics.</p>
+<a href="/contact/" class="service-cta">Get in touch →</a>
+</div>
 
----
+<div class="service-card">
+<h3>Content Office Hours</h3>
+<p>Book a 1-hour session and bring the messy stuff: naming debates, taxonomy tangles, UX copy that isn't landing, onboarding flows that confuse more than they help. I'll help you untangle it in real time.</p>
+<p>No prep required. No deliverable expected. Just a focused hour with someone who's seen these problems at scale and can help you find the right framing.</p>
+<a href="https://calendly.com/ai-with-jen/connect" class="service-cta">Book a session →</a>
+</div>
 
-### Teaching
+<div class="service-card">
+<h3>Mentoring</h3>
+<p>Guidance for content design professionals expanding into data products, AI systems, and technical domains. I've navigated the transition from traditional UX writing to designing the semantic layer of enterprise AI, and I can help you do the same.</p>
+<p>We'll work on career strategy, portfolio positioning, skill-building, and navigating ambiguity in roles where the scope is still being defined. Sessions are flexible and ongoing.</p>
+<a href="https://calendly.com/ai-with-jen/connect" class="service-cta">Discuss your goals →</a>
+</div>
 
-University courses and professional workshops at the intersection of content design and data engineering. My flagship course, *Full-Stack Data Clarity*, is pitched for Fall 2026.
-
-[See the course →](/courses/)
-
----
-
-### Consulting & Advisory
-
-> "AI is the top of a pyramid of needs. Don't jump to it before you've built the foundation — data literacy, reliable infrastructure, and clean data."
->
-> **— Monica Rogati**, former VP of Data at Jawbone
-
-Terminology audits, naming system design, and data product content strategy. I'll evaluate your data product's content layer and deliver actionable recommendations. Ongoing advisory engagements are also available for teams expanding into data products and AI-assisted analytics.
-
-**Engagements include:**
-- Terminology audit + style guide
-- Naming convention design for schemas, metrics, and APIs
-- Data catalog content strategy
-- AI metadata quality assessment
-- Error message and empty state redesign for data products
-
-[Get in touch →](/contact/)
-
----
-
-### Content Office Hours
-
-Stuck on a content problem? Book a 1-hour session and bring the messy stuff. I'll help you untangle it in real time.
-
-[Book a session →](https://calendly.com/ai-with-jen/connect)
-
----
-
-### Mentoring
-
-Guidance for content design professionals expanding into data products, AI systems, and technical domains. Career strategy, portfolio positioning, skill-building, and navigating ambiguity in new-scope roles.
-
-[Discuss your mentoring goals →](https://calendly.com/ai-with-jen/connect)
-
----
+</div>
 
 ## Let's talk
 

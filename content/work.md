@@ -1,28 +1,12 @@
 ---
-title: "Work"
-description: "Selected projects across AI content design, agent orchestration, and systems thinking."
+title: "Selected Work"
+description: "Systems I've built at enterprise scale — from naming AI products to governing content across 24 languages. Each project connects terminology research, content architecture, and systems thinking to real product outcomes."
 layout: "single"
 ---
 
-## Selected work
-
-Systems I've built at enterprise scale — from naming AI products to governing content across 24 languages. [Request a case study →](mailto:jennifer.kelleman@gmail.com?subject=Case%20study%20request)
+[Request a case study →](mailto:jennifer.kelleman@gmail.com?subject=Case%20study%20request)
 
 <div class="article-grid">
-
-<div class="article-tile article-tile--featured">
-  <img src="/images/work/data-agents-content-research.png" alt="Feature Term Ranking chart showing survey results across 51 responses with stacked bar visualization" class="tile-image">
-  <span class="tag tag-ai">AI Systems</span>
-  <h3>Data Agents Naming and Terminology System</h3>
-  <p><strong>Project:</strong> Named an autonomous AI product across a cross-functional team with competing preferences.<br>
-  <strong>Outcome:</strong> Scored 60+ candidates against a structured constraint framework, validated by survey with 51 respondents.<br>
-  <strong>Impact:</strong> Moved the team from deadlock to decision with evidence, not opinions.</p>
-  <div class="tile-stat">
-    <span class="stat-number">60+</span>
-    <span class="stat-label">naming candidates evaluated</span>
-  </div>
-  <span class="tile-meta">Content Design Lead · Research Owner</span>
-</div>
 
 <div class="article-tile">
   <img src="/images/work/notebook-dependencies-monitoring.png" alt="Fabric interactive prototypes showing notebook run lineage tree and snapshot details" class="tile-image">
@@ -39,7 +23,21 @@ Systems I've built at enterprise scale — from naming AI products to governing 
 </div>
 
 <div class="article-tile">
-  <img src="/images/work/AI-content-governance-2.png" alt="AI UX Quality Scorecard showing dimensions for memory, grounding, delegation, agent control, and beyond chat" class="tile-image">
+  <img src="/images/work/data-agents-content-research.png" alt="Feature Term Ranking chart showing survey results across 51 responses with stacked bar visualization" class="tile-image">
+  <span class="tag tag-ai">AI Systems</span>
+  <h3>Data Agents Naming and Terminology System</h3>
+  <p><strong>Project:</strong> Named an autonomous AI product across a cross-functional team with competing preferences.<br>
+  <strong>Outcome:</strong> Scored 60+ candidates against a structured constraint framework, validated by survey with 51 respondents.<br>
+  <strong>Impact:</strong> Moved the team from deadlock to decision with evidence, not opinions.</p>
+  <div class="tile-stat">
+    <span class="stat-number">60+</span>
+    <span class="stat-label">naming candidates evaluated</span>
+  </div>
+  <span class="tile-meta">Content Design Lead · Research Owner</span>
+</div>
+
+<div class="article-tile">
+  <img src="/images/work/AI-content-governance-1.png" alt="From chat to context to agency — the new Copilot UX contract showing contextual autonomy, memory infrastructure, and trust contracts" class="tile-image">
   <span class="tag tag-ai">Governance</span>
   <h3>AI-First Content Governance</h3>
   <p><strong>Project:</strong> Built system-level content patterns and governance structures for AI-assisted authoring at scale.<br>
@@ -53,7 +51,7 @@ Systems I've built at enterprise scale — from naming AI products to governing 
 </div>
 
 <div class="article-tile">
-  <img src="/images/work/AI-content-governance-1.png" alt="From chat to context to agency — the new Copilot UX contract showing contextual autonomy, memory infrastructure, and trust contracts" class="tile-image">
+  <img src="/images/work/AI-content-governance-2.png" alt="AI UX Quality Scorecard showing dimensions for memory, grounding, delegation, agent control, and beyond chat" class="tile-image">
   <span class="tag tag-tools">Agent Systems</span>
   <h3>Multi-Agent Orchestration System</h3>
   <p><strong>Project:</strong> Designed and deployed a production agent orchestration system for career strategy and content design workflows.<br>

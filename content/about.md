@@ -87,6 +87,67 @@ I name things for a living — column names, error messages, glossaries, metrics
 
 ---
 
+## Education & credentials
+
+<div class="edu-two-col">
+<div class="edu-col">
+<h4>AI & Data</h4>
+
+<div class="edu-item">
+<strong>Carnegie Mellon University</strong>
+<span>MS, Data Science</span>
+</div>
+
+<div class="edu-item">
+<strong>Tufts University</strong>
+<span>MS, Computer Science (in progress)</span>
+</div>
+
+<div class="edu-item">
+<strong>Microsoft Azure Data University</strong>
+<span>Cloud Computing</span>
+</div>
+
+</div>
+<div class="edu-col">
+<h4>UX & Communication</h4>
+
+<div class="edu-item">
+<strong>Emerson College</strong>
+<span>MA, Writing and Publishing</span>
+<span>Digital Innovation</span>
+</div>
+
+<div class="edu-item">
+<strong>Deque University</strong>
+<span>Designing an Accessible User Experience</span>
+</div>
+
+<div class="edu-item">
+<strong>Lafayette College</strong>
+<span>BA, Psychology and English</span>
+</div>
+
+</div>
+</div>
+
+<div class="cert-badges">
+  <div class="cert-badge">
+    <img src="/img/logos/github-foundations.png" alt="GitHub Foundations certification badge">
+    <span>GitHub Foundations</span>
+  </div>
+  <div class="cert-badge">
+    <img src="/img/logos/azure-ai-fundamentals.svg" alt="Microsoft Azure AI Fundamentals certification badge">
+    <span>AI-900: Azure AI Fundamentals</span>
+  </div>
+  <div class="cert-badge">
+    <img src="/img/logos/korn-ferry.png" alt="Korn Ferry logo">
+    <span>Korn Ferry: Leading the Future</span>
+  </div>
+</div>
+
+---
+
 ## What I believe
 
 > "Human language is the new UI layer."
@@ -170,67 +231,6 @@ I name things for a living — column names, error messages, glossaries, metrics
   <p>3 workstreams advancing accessible sign language technology.</p>
 </div>
 
-</div>
-
----
-
-## Education & credentials
-
-<div class="edu-two-col">
-<div class="edu-col">
-<h4>AI & Data</h4>
-
-<div class="edu-item">
-<strong>Carnegie Mellon University</strong>
-<span>MS, Data Science</span>
-</div>
-
-<div class="edu-item">
-<strong>Tufts University</strong>
-<span>MS, Computer Science (in progress)</span>
-</div>
-
-<div class="edu-item">
-<strong>Microsoft Azure Data University</strong>
-<span>Cloud Computing</span>
-</div>
-
-</div>
-<div class="edu-col">
-<h4>UX & Communication</h4>
-
-<div class="edu-item">
-<strong>Emerson College</strong>
-<span>MA, Writing and Publishing</span>
-<span>Digital Innovation</span>
-</div>
-
-<div class="edu-item">
-<strong>Deque University</strong>
-<span>Designing an Accessible User Experience</span>
-</div>
-
-<div class="edu-item">
-<strong>Lafayette College</strong>
-<span>BA, Psychology and English</span>
-</div>
-
-</div>
-</div>
-
-<div class="cert-badges">
-  <div class="cert-badge">
-    <img src="/img/logos/github-foundations.png" alt="GitHub Foundations certification badge">
-    <span>GitHub Foundations</span>
-  </div>
-  <div class="cert-badge">
-    <img src="/img/logos/azure-ai-fundamentals.svg" alt="Microsoft Azure AI Fundamentals certification badge">
-    <span>AI-900: Azure AI Fundamentals</span>
-  </div>
-  <div class="cert-badge">
-    <img src="/img/logos/korn-ferry.png" alt="Korn Ferry logo">
-    <span>Korn Ferry: Leading the Future</span>
-  </div>
 </div>
 
 ---

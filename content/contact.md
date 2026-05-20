@@ -1,36 +1,34 @@
 ---
 title: "Contact"
-description: "Get in touch with Jen Kelleman — speaking inquiries, course partnerships, consulting, or just to say hello."
+description: "Speaking inquiries, course partnerships, consulting, or just a question. I'd love to hear from you."
 layout: "single"
 ---
 
-## Let's talk.
+Whether it's a speaking engagement, a course partnership, a consulting project, or just a question: I'd love to hear from you.
 
-Whether it's a speaking inquiry, a course partnership, a consulting engagement, or just a question — I'd love to hear from you.
+<p class="contact-cta">
+  <a href="https://calendly.com/ai-with-jen/connect" class="service-cta">Book 30 min with Jen →</a>
+</p>
 
----
-
-### Reach me
-
-[Book 30 min with Jen →](https://calendly.com/ai-with-jen/connect)
-
-**Email:** [jennifer.kelleman@gmail.com](mailto:jennifer.kelleman@gmail.com)
-
-**LinkedIn:** [linkedin.com/in/jenniferkelleman](https://www.linkedin.com/in/jenniferkelleman/)
-
----
-
-### What to expect
-
-I typically respond within **2 business days**. For speaking inquiries, it helps to include:
-
-- Event name, date, and location
-- Audience size and type
-- Preferred format (keynote, panel, workshop)
-- Whether travel support is available
-
-For consulting inquiries, a brief description of the challenge and timeline is helpful.
+<div class="contact-methods">
+  <div class="contact-method">
+    <h4>Email</h4>
+    <a href="mailto:jennifer.kelleman@gmail.com">jennifer.kelleman@gmail.com</a>
+  </div>
+  <div class="contact-method">
+    <h4>LinkedIn</h4>
+    <a href="https://www.linkedin.com/in/jenniferkelleman/" target="_blank" rel="noopener">linkedin.com/in/jenniferkelleman</a>
+  </div>
+</div>
 
 ---
 
-*I read everything. If it's a fit, I'll respond with next steps. If not, I'll say so honestly and point you somewhere useful if I can.*
+## What to expect
+
+I typically respond within two business days.
+
+**For speaking inquiries**, it helps to include the event name, date, location, audience size, preferred format (keynote, panel, workshop), and whether travel support is available.
+
+**For consulting inquiries**, a brief description of the challenge and timeline is helpful.
+
+I read everything. If it's a fit, I'll respond with next steps. If not, I'll say so honestly and point you somewhere useful if I can.
