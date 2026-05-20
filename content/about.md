@@ -6,21 +6,70 @@ layout: "single"
 
 <img src="/img/jen-kelleman-2.jpg" alt="Jen Kelleman" class="about-photo">
 
-## The short version
+I thrive in 0→1 environments, designing the human layer of agentic AI systems — the language, workflows, trust signals, and agent architectures that make autonomous AI usable, trustworthy, and learnable at scale.
 
-I'm a Principal Content Designer at Microsoft, where I own the content design for Fabric Data Engineering — Lakehouse, Materialized Views, Monitoring, and Osmos. I design the naming conventions, glossaries, and error messages for data products used by millions of people.
+## Expertise
 
-I also teach, speak, and write about how terminology governance and semantic contracts reduce failures across data products and AI systems.
+<div class="expertise-grid">
+  <div class="expertise-category">
+    <h4>AI & Agent Systems</h4>
+    <div class="expertise-tags">
+      <span class="expertise-tag">Agent Orchestration</span>
+      <span class="expertise-tag">Model Context Protocol (MCP)</span>
+      <span class="expertise-tag">Prompt Engineering</span>
+      <span class="expertise-tag">Agentic UX Design</span>
+      <span class="expertise-tag">LLM Integration</span>
+      <span class="expertise-tag">Conversational AI Design</span>
+      <span class="expertise-tag">Trust Signal Frameworks</span>
+      <span class="expertise-tag">AI Evaluation Criteria</span>
+      <span class="expertise-tag">MCP Servers</span>
+      <span class="expertise-tag">Vibe Coding Workflows</span>
+    </div>
+  </div>
+  <div class="expertise-category">
+    <h4>Content & Design Systems</h4>
+    <div class="expertise-tags">
+      <span class="expertise-tag">Content Systems & Design</span>
+      <span class="expertise-tag">Terminology Frameworks</span>
+      <span class="expertise-tag">Information Architecture</span>
+      <span class="expertise-tag">Design-to-Code Documentation</span>
+      <span class="expertise-tag">Cross-Surface Audits</span>
+      <span class="expertise-tag">Enterprise Style Guides</span>
+      <span class="expertise-tag">SWIFT Terminology Studies</span>
+      <span class="expertise-tag">Persona-Based Segmentation</span>
+    </div>
+  </div>
+  <div class="expertise-category">
+    <h4>Engineering & Tools</h4>
+    <div class="expertise-tags">
+      <span class="expertise-tag">Figma API Automation</span>
+      <span class="expertise-tag">REST APIs</span>
+      <span class="expertise-tag">Fluent UI</span>
+      <span class="expertise-tag">Front-End Web Development</span>
+      <span class="expertise-tag">Machine Learning</span>
+      <span class="expertise-tag">SaaS</span>
+      <span class="expertise-tag">Ecommerce</span>
+    </div>
+  </div>
+  <div class="expertise-category">
+    <h4>Leadership & Community</h4>
+    <div class="expertise-tags">
+      <span class="expertise-tag">Public Speaking</span>
+      <span class="expertise-tag">Community Building</span>
+      <span class="expertise-tag">Mentoring & Teaching</span>
+    </div>
+  </div>
+</div>
 
 ---
 
-## The longer version
+## What I do
 
 I name things for a living. Column names, error messages, glossaries, metrics definitions — the words that sit between raw data and the people who need to use it.
 
 Most of the time, when a data product confuses someone, it's not a model problem. It's a naming problem. A documentation problem. A "what does this column actually mean?" problem. That's what I fix.
 
-At Microsoft, I own that for Fabric Data Engineering. I write the terminology governance systems, the naming conventions, and the content strategies that help teams ship data products people can actually understand. I also build the evaluation rubrics, grounding rules, and terminology systems that AI-assisted features depend on.
+At Microsoft, I own that for Fabric Data Engineering — 15+ years building content-driven interfaces, AI agent orchestration, MCP architecture, and terminology systems for enterprise platforms. I ship content design for autonomous AI features, lead cross-stakeholder naming research through Technical Fellow and CVP approval gates, and build the evaluation rubrics, grounding rules, and terminology systems that AI-assisted features depend on.
 
 ---
 
