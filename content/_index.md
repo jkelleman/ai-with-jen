@@ -61,7 +61,7 @@ For proof from shipped enterprise product systems.
 </div>
 
 <div class="featured-card">
-<img src="/img/speaking.jpg" alt="Jen Kelleman speaking at Microsoft x Red Bull Startup Innovation Labs" class="card-img">
+<img src="/img/speaking-panel.jpg" alt="Jen Kelleman speaking at Microsoft x Red Bull Startup Innovation Labs" class="card-img">
 
 #### [Speaking](/speaking/)
 For conferences, keynotes, and team workshops.
@@ -101,6 +101,10 @@ Tools I use to design, evaluate, and ship world-class AI experiences with clarit
 </div>
 
 ---
+
+> "The purpose of abstraction is not to be vague, but to create a new semantic level in which one can be absolutely precise."
+>
+> — **Edsger W. Dijkstra**, Turing Award winner
 
 <div class="home-cta">
 	<a class="home-cta-primary" href="/contact/">Start the conversation</a>
