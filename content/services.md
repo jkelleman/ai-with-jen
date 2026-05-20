@@ -44,7 +44,3 @@ Every engagement starts with a conversation. Here's how we can work together.
 </div>
 
 </div>
-
-## Let's talk
-
-[Get in touch →](/contact/)
