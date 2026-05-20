@@ -14,9 +14,9 @@ Whether it's a speaking inquiry, a course partnership, a consulting engagement, 
 
 [Book 30 min with Jen →](https://calendly.com/ai-with-jen/connect)
 
-**Email:** [jen@aiwithjen.com](mailto:jen@aiwithjen.com)
+**Email:** [jennifer.kelleman@gmail.com](mailto:jennifer.kelleman@gmail.com)
 
-**LinkedIn:** [linkedin.com/in/jenkelleman](https://linkedin.com/in/jenkelleman)
+**LinkedIn:** [linkedin.com/in/jenniferkelleman](https://www.linkedin.com/in/jenniferkelleman/)
 
 ---
 

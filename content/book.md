@@ -58,7 +58,7 @@ Drawing from years of designing the language layer of Microsoft's data platform,
 This book is in early development. If you want to know when it's available or when early chapters are shared, I'll keep you posted.
 
 <p style="margin-top: 1.5rem; text-align: center;">
-  <a href="mailto:jen@aiwithjen.com?subject=Full-Stack%20Clarity%20%E2%80%94%20Notify%20me&body=I%E2%80%99d%20like%20to%20know%20when%20the%20book%20is%20available." class="btn">Notify me when it's ready →</a>
+  <a href="mailto:jennifer.kelleman@gmail.com?subject=Full-Stack%20Clarity%20%E2%80%94%20Notify%20me&body=I%E2%80%99d%20like%20to%20know%20when%20the%20book%20is%20available." class="btn">Notify me when it's ready →</a>
 </p>
 
 <!-- TODO: Replace mailto with ConvertKit/Buttondown embed when ready -->

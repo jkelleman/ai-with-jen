@@ -243,5 +243,5 @@ Active in the Boston data and AI community through **[Boston PyLadies](https://p
   <a href="/work-with-me/">Work with me →</a>
   <a href="/contact/">Book me to speak →</a>
   <a href="/speaking/">See where I've spoken →</a>
-  <a href="https://linkedin.com/in/jenkelleman">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/jenniferkelleman/">LinkedIn</a>
 </div>
