@@ -14,7 +14,6 @@ layout: "single"
   <div class="project-header">
     <h4>Terminology Governance Systems</h4>
     <span class="project-scope">Microsoft Fabric Data Engineering</span>
-    <span class="project-badge">Empowered millions to build with clarity and confidence</span>
   </div>
   <p>Canonical language for Lakehouse, Materialized Views, Monitoring, and agentic AI experiences. The naming layer that AI grounding depends on.</p>
 </div>
@@ -23,7 +22,6 @@ layout: "single"
   <div class="project-header">
     <h4>AI-First Design Review</h4>
     <span class="project-scope">Framework</span>
-    <span class="project-badge">Human-in-the-Loop Design</span>
   </div>
   <p>Governance model making AI influence explicit in design reviews. Pitched to leadership as a funded pilot.</p>
 </div>
@@ -32,7 +30,6 @@ layout: "single"
   <div class="project-header">
     <h4>Content + AI Operating Model</h4>
     <span class="project-scope">Explore → Iterate → Scale</span>
-    <span class="project-badge">Enterprise Style Guides</span>
   </div>
   <p>3-layer system producing reusable glossaries, evaluation rubrics, and onboarding templates across four product areas.</p>
 </div>
@@ -41,7 +38,6 @@ layout: "single"
   <div class="project-header">
     <h4>Clarity Delta</h4>
     <span class="project-scope">Evaluation Metric</span>
-    <span class="project-badge">AI Evaluation Criteria for Designers</span>
   </div>
   <p>Scoring AI output on terminology accuracy, grounding fidelity, and task completion.</p>
 </div>
