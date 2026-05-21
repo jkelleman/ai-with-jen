@@ -95,7 +95,7 @@ I name things for a living — column names, error messages, glossaries, metrics
 
 <div class="edu-item">
 <strong>Carnegie Mellon University</strong>
-<span>MS, Data Science</span>
+<span>MS, Data Science (in progress)</span>
 </div>
 
 <div class="edu-item">
