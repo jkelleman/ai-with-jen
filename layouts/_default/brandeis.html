@@ -1,0 +1,89 @@
+{{ define "main" }}
+<meta name="robots" content="noindex, nofollow">
+
+<!-- Password gate — covers entire page until authenticated -->
+<div id="brandeis-gate" class="brandeis-gate">
+  <div class="brandeis-gate-inner">
+    <h1>RUCD 125: AI for Human-Centered Design</h1>
+    <p>This page is a confidential review draft prepared for Brandeis University GPS.</p>
+    <div class="password-input-group">
+      <input type="password" id="gate-password" placeholder="Access code" autocomplete="off">
+      <button onclick="checkGatePassword()">Enter</button>
+    </div>
+    <p id="gate-error" class="password-error" hidden>Invalid code. Check the email from Jen and try again.</p>
+  </div>
+</div>
+
+<!-- Watermark overlay — visible after authentication -->
+<div id="brandeis-watermark" class="brandeis-watermark" hidden></div>
+
+<!-- Review banner -->
+<div id="brandeis-banner" class="brandeis-banner" hidden>
+  <span>CONFIDENTIAL DRAFT — Prepared for Brandeis GPS review. Not for distribution.</span>
+</div>
+
+<article id="brandeis-content" class="page brandeis-page" hidden>
+  <header class="page-header">
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-description">{{ . }}</p>{{ end }}
+  </header>
+  <div class="page-content">
+    {{ .Content }}
+  </div>
+</article>
+
+<script>
+(function() {
+  var passwords = {
+    'dawn2026': 'dawn',
+    'eva2026': 'eva',
+    'alex2026': 'alex',
+    'jen2026': 'jen'
+  };
+  var input = document.getElementById('gate-password');
+  if (input) {
+    input.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') checkGatePassword();
+    });
+    setTimeout(function() { input.focus(); }, 100);
+  }
+  window.checkGatePassword = function() {
+    var val = document.getElementById('gate-password').value;
+    var reviewer = passwords[val];
+    if (reviewer) {
+      document.getElementById('brandeis-gate').hidden = true;
+      document.getElementById('brandeis-content').hidden = false;
+      document.getElementById('brandeis-watermark').hidden = false;
+      document.getElementById('brandeis-banner').hidden = false;
+      // Clarity custom event
+      if (typeof clarity === 'function') {
+        clarity('set', 'reviewer', reviewer);
+      }
+    } else {
+      document.getElementById('gate-error').hidden = false;
+    }
+  };
+
+  // Accordion toggle for week sections
+  document.addEventListener('click', function(e) {
+    var toggle = e.target.closest('.brandeis-toggle');
+    if (!toggle) return;
+    var content = toggle.nextElementSibling;
+    var expanded = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!expanded));
+    toggle.querySelector('.toggle-icon').textContent = expanded ? '+' : '−';
+    content.hidden = expanded;
+  });
+})();
+</script>
+
+<!-- Microsoft Clarity -->
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){
+  c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+  t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+  y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "x2i9q8hzgt");
+</script>
+
+{{ end }}
