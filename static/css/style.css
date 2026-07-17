@@ -1928,6 +1928,315 @@ td strong {
 }
 
 /* =============================================
+   Resume & Portfolio — Page styles
+   ============================================= */
+
+/* --- Resume header --- */
+.resume-header {
+  margin-bottom: 1rem;
+}
+
+.resume-subtitle {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--color-accent);
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.01em;
+}
+
+.resume-summary {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+  max-width: 700px;
+  margin-bottom: 1.25rem;
+}
+
+.resume-download {
+  display: inline-block;
+  background: var(--color-accent);
+  color: var(--color-white);
+  padding: 0.6rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.resume-download:hover {
+  background: var(--color-accent-dark);
+  transform: translateY(-1px);
+}
+
+/* --- Resume timeline --- */
+.resume-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.resume-entry {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-accent);
+  border-radius: 0 10px 10px 0;
+  padding: 1.5rem 1.75rem;
+  transition: box-shadow 0.2s ease;
+}
+
+.resume-entry:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.resume-entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.resume-entry-header h4 {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  margin: 0;
+}
+
+.resume-date {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--color-accent);
+  background: var(--color-accent-light);
+  padding: 0.15rem 0.65rem;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.resume-role {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  margin-bottom: 0.75rem;
+}
+
+.resume-entry ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+
+.resume-entry ul li {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+  margin-bottom: 0.35rem;
+}
+
+/* --- Resume selected projects --- */
+.resume-projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.resume-project {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  transition: box-shadow 0.2s ease;
+}
+
+.resume-project:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.resume-project h4 {
+  font-size: 1rem;
+  margin-bottom: 0.15rem;
+}
+
+.resume-project-scope {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.5rem;
+}
+
+.resume-project p {
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+/* --- Resume CTA row --- */
+.resume-cta {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+.resume-cta .btn {
+  display: inline-block;
+  background: var(--color-accent);
+  color: var(--color-white);
+  padding: 0.7rem 1.75rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.resume-cta .btn:hover {
+  background: var(--color-accent-dark);
+  transform: translateY(-1px);
+}
+
+.resume-cta .btn-outline {
+  background: transparent;
+  color: var(--color-accent);
+  border: 1.5px solid var(--color-accent);
+}
+
+.resume-cta .btn-outline:hover {
+  background: var(--color-accent-light);
+  color: var(--color-accent-dark);
+}
+
+/* --- Portfolio downloads --- */
+.portfolio-downloads {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.portfolio-download-card {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: box-shadow 0.2s ease;
+}
+
+.portfolio-download-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.portfolio-download-card h4 {
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-download-card p {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 1rem;
+}
+
+.portfolio-download-card .btn-outline {
+  display: inline-block;
+  background: transparent;
+  color: var(--color-accent);
+  border: 1.5px solid var(--color-accent);
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: all 0.2s ease;
+}
+
+.portfolio-download-card .btn-outline:hover {
+  background: var(--color-accent-light);
+  color: var(--color-accent-dark);
+}
+
+/* --- Resume/Portfolio responsive --- */
+@media (max-width: 700px) {
+  .resume-projects {
+    grid-template-columns: 1fr;
+  }
+
+  .resume-entry-header {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .resume-cta {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* --- Resume print styles --- */
+@media print {
+  .site-header,
+  .site-footer,
+  .floating-cta,
+  .resume-download,
+  .resume-cta {
+    display: none !important;
+  }
+
+  body {
+    font-size: 11pt;
+    color: #000;
+    background: #fff;
+    line-height: 1.4;
+  }
+
+  .page {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .resume-entry {
+    border: none;
+    border-left: 2px solid #333;
+    border-radius: 0;
+    padding: 0.5rem 1rem;
+    box-shadow: none;
+    page-break-inside: avoid;
+  }
+
+  .resume-project,
+  .portfolio-download-card {
+    border: 1px solid #ccc;
+    box-shadow: none;
+    page-break-inside: avoid;
+  }
+
+  .resume-date {
+    background: none;
+    color: #333;
+    padding: 0;
+  }
+
+  .expertise-tag {
+    border-color: #999;
+    color: #333;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+/* =============================================
    Brandeis RUCD 125 — Review page styles
    ============================================= */
 
