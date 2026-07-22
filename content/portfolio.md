@@ -5,10 +5,6 @@ layout: "single"
 aliases: ["/work/"]
 ---
 
-<p class="project-intro">Detailed case studies and portfolio samples from my work designing AI language systems, terminology governance, and content infrastructure at enterprise scale.</p>
-
----
-
 ## Case Studies
 
 [Request a case study →](mailto:jennifer.kelleman@gmail.com?subject=Case%20study%20request)
@@ -75,41 +71,9 @@ aliases: ["/work/"]
 
 ---
 
-## Downloadable Samples
+## What I've built
 
-<div class="portfolio-downloads">
-
-<div class="portfolio-download-card">
-  <h4>📄 Resume / CV</h4>
-  <p>Full professional resume with experience, education, and certifications.</p>
-  <a href="/resume/" class="btn btn-outline">View resume →</a>
-  <a href="/files/jen-kelleman-resume.pdf" class="btn btn-outline" download>Download PDF ↓</a>
-</div>
-
-<!--
-  ADD MORE DOWNLOADABLE SAMPLES HERE
-  Copy the portfolio-download-card block above and update for each new sample.
-
-  Example:
-
-<div class="portfolio-download-card">
-  <h4>📊 Portfolio Deck</h4>
-  <p>Selected work samples and case study highlights.</p>
-  <a href="/files/jen-kelleman-portfolio.pdf" class="btn btn-outline" download>Download PDF ↓</a>
-</div>
-
-<div class="portfolio-download-card">
-  <h4>🎤 Speaker One-Pager</h4>
-  <p>Bio, headshot, talk titles, and booking info for event organizers.</p>
-  <a href="/files/jen-kelleman-speaker-kit.pdf" class="btn btn-outline" download>Download PDF ↓</a>
-</div>
--->
-
-</div>
-
----
-
-## Frameworks & Tools
+<p class="project-intro">Systems, frameworks, and tools — shipped at enterprise scale.</p>
 
 <div class="project-grid">
 
@@ -177,6 +141,40 @@ aliases: ["/work/"]
   </div>
   <p>3 workstreams advancing accessible sign language technology.</p>
 </div>
+
+</div>
+
+---
+
+## Downloadable Samples
+
+<div class="portfolio-downloads">
+
+<div class="portfolio-download-card">
+  <h4>📄 Resume / CV</h4>
+  <p>Full professional resume with experience, education, and certifications.</p>
+  <a href="/resume/" class="btn btn-outline">View resume →</a>
+  <a href="/files/jen-kelleman-resume.pdf" class="btn btn-outline" download>Download PDF ↓</a>
+</div>
+
+<!--
+  ADD MORE DOWNLOADABLE SAMPLES HERE
+  Copy the portfolio-download-card block above and update for each new sample.
+
+  Example:
+
+<div class="portfolio-download-card">
+  <h4>📊 Portfolio Deck</h4>
+  <p>Selected work samples and case study highlights.</p>
+  <a href="/files/jen-kelleman-portfolio.pdf" class="btn btn-outline" download>Download PDF ↓</a>
+</div>
+
+<div class="portfolio-download-card">
+  <h4>🎤 Speaker One-Pager</h4>
+  <p>Bio, headshot, talk titles, and booking info for event organizers.</p>
+  <a href="/files/jen-kelleman-speaker-kit.pdf" class="btn btn-outline" download>Download PDF ↓</a>
+</div>
+-->
 
 </div>
 
