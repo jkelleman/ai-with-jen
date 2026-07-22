@@ -5,6 +5,81 @@ layout: "single"
 aliases: ["/work/"]
 ---
 
+## What I've built
+
+<p class="project-intro">Systems, frameworks, and tools — shipped at enterprise scale.</p>
+
+<div class="project-grid">
+
+<div class="project-card project-card--featured">
+  <div class="project-header">
+    <h4>Terminology Governance Systems</h4>
+    <span class="project-scope">Microsoft Fabric Data Engineering</span>
+  </div>
+  <p>Canonical language for Lakehouse, Materialized Views, Monitoring, and agentic AI experiences. The naming layer that AI grounding depends on.</p>
+</div>
+
+<div class="project-card">
+  <div class="project-header">
+    <h4>AI-First Design Review</h4>
+    <span class="project-scope">Framework</span>
+  </div>
+  <p>Governance model making AI influence explicit in design reviews. Pitched to leadership as a funded pilot.</p>
+</div>
+
+<div class="project-card">
+  <div class="project-header">
+    <h4>Content + AI Operating Model</h4>
+    <span class="project-scope">Explore → Iterate → Scale</span>
+  </div>
+  <p>3-layer system producing reusable glossaries, evaluation rubrics, and onboarding templates across four product areas.</p>
+</div>
+
+<div class="project-card">
+  <div class="project-header">
+    <h4>Clarity Delta</h4>
+    <span class="project-scope">Evaluation Metric</span>
+  </div>
+  <p>Scoring AI output on terminology accuracy, grounding fidelity, and task completion.</p>
+</div>
+
+<div class="project-card">
+  <div class="project-header">
+    <h4>Promptcraft</h4>
+    <span class="project-scope">Workshop</span>
+    <span class="project-badge">Chosen for Microsoft Design Week 2025</span>
+  </div>
+  <p>Prompt engineering workshop teaching designers to get better AI output.</p>
+  <div class="project-stat">
+    <span class="stat-number">100+</span>
+    <span class="stat-label">designers trained</span>
+  </div>
+</div>
+
+<div class="project-card">
+  <div class="project-header">
+    <h4>VibeHub</h4>
+  </div>
+  <p>Co-led a platform for democratizing UX engineering.</p>
+  <div class="project-stat">
+    <span class="stat-number">10,000+</span>
+    <span class="stat-label">projects in production</span>
+  </div>
+</div>
+
+<div class="project-card project-card--featured">
+  <div class="project-header">
+    <h4>Deaf-Led Sign Language Experiences</h4>
+    <span class="project-badge">3× Hackathon Executive Award</span>
+    <span class="project-badge">Ability Executive Challenge Winner</span>
+  </div>
+  <p>3 workstreams advancing accessible sign language technology.</p>
+</div>
+
+</div>
+
+---
+
 ## Case Studies
 
 [Request a case study →](mailto:jennifer.kelleman@gmail.com?subject=Case%20study%20request)
@@ -65,81 +140,6 @@ aliases: ["/work/"]
     <span class="stat-label">custom agents deployed</span>
   </div>
   <span class="tile-meta">Systems Designer · Architect</span>
-</div>
-
-</div>
-
----
-
-## What I've built
-
-<p class="project-intro">Systems, frameworks, and tools — shipped at enterprise scale.</p>
-
-<div class="project-grid">
-
-<div class="project-card project-card--featured">
-  <div class="project-header">
-    <h4>Terminology Governance Systems</h4>
-    <span class="project-scope">Microsoft Fabric Data Engineering</span>
-  </div>
-  <p>Canonical language for Lakehouse, Materialized Views, Monitoring, and agentic AI experiences. The naming layer that AI grounding depends on.</p>
-</div>
-
-<div class="project-card">
-  <div class="project-header">
-    <h4>AI-First Design Review</h4>
-    <span class="project-scope">Framework</span>
-  </div>
-  <p>Governance model making AI influence explicit in design reviews. Pitched to leadership as a funded pilot.</p>
-</div>
-
-<div class="project-card">
-  <div class="project-header">
-    <h4>Content + AI Operating Model</h4>
-    <span class="project-scope">Explore → Iterate → Scale</span>
-  </div>
-  <p>3-layer system producing reusable glossaries, evaluation rubrics, and onboarding templates across four product areas.</p>
-</div>
-
-<div class="project-card">
-  <div class="project-header">
-    <h4>Clarity Delta</h4>
-    <span class="project-scope">Evaluation Metric</span>
-  </div>
-  <p>Scoring AI output on terminology accuracy, grounding fidelity, and task completion.</p>
-</div>
-
-<div class="project-card">
-  <div class="project-header">
-    <h4>Promptcraft</h4>
-    <span class="project-scope">Workshop</span>
-    <span class="project-badge">Chosen for Microsoft Design Week 2025</span>
-  </div>
-  <p>Prompt engineering workshop teaching designers to get better AI output.</p>
-  <div class="project-stat">
-    <span class="stat-number">100+</span>
-    <span class="stat-label">designers trained</span>
-  </div>
-</div>
-
-<div class="project-card">
-  <div class="project-header">
-    <h4>VibeHub</h4>
-  </div>
-  <p>Co-led a platform for democratizing UX engineering.</p>
-  <div class="project-stat">
-    <span class="stat-number">2,000+</span>
-    <span class="stat-label">projects in production</span>
-  </div>
-</div>
-
-<div class="project-card project-card--featured">
-  <div class="project-header">
-    <h4>Deaf-Led Sign Language Experiences</h4>
-    <span class="project-badge">3× Hackathon Executive Award</span>
-    <span class="project-badge">Ability Executive Challenge Winner</span>
-  </div>
-  <p>3 workstreams advancing accessible sign language technology.</p>
 </div>
 
 </div>
