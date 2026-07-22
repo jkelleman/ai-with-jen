@@ -2,6 +2,7 @@
 title: "Selected Work"
 description: "Systems I've built at enterprise scale — from naming AI products to governing content across 24 languages. Each project connects terminology research, content architecture, and systems thinking to real product outcomes."
 layout: "single"
+aliases: ["/portfolio/"]
 ---
 
 ## What I've built
@@ -140,6 +141,39 @@ layout: "single"
   </div>
   <span class="tile-meta">Systems Designer · Architect</span>
 </div>
+
+</div>
+
+---
+
+## Downloadable Samples
+
+<div class="portfolio-downloads">
+
+<div class="portfolio-download-card">
+  <h4>📄 Resume / CV</h4>
+  <p>Full professional resume with experience, education, and certifications.</p>
+  <a href="/files/jen-kelleman-resume.pdf" class="btn btn-outline" download>Download PDF ↓</a>
+</div>
+
+<!--
+  ADD MORE DOWNLOADABLE SAMPLES HERE
+  Copy the portfolio-download-card block above and update for each new sample.
+
+  Example:
+
+<div class="portfolio-download-card">
+  <h4>📊 Portfolio Deck</h4>
+  <p>Selected work samples and case study highlights.</p>
+  <a href="/files/jen-kelleman-portfolio.pdf" class="btn btn-outline" download>Download PDF ↓</a>
+</div>
+
+<div class="portfolio-download-card">
+  <h4>🎤 Speaker One-Pager</h4>
+  <p>Bio, headshot, talk titles, and booking info for event organizers.</p>
+  <a href="/files/jen-kelleman-speaker-kit.pdf" class="btn btn-outline" download>Download PDF ↓</a>
+</div>
+-->
 
 </div>
 
