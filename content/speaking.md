@@ -127,7 +127,7 @@ A hands-on workshop where participants apply content design principles to real d
 
 ## Writing
 
-Many of these talks started as articles. Read the thinking behind the talks on [Medium](https://jenkelleman.medium.com) or on my [Articles page](/articles/).
+Many of these talks started as articles. Read the thinking behind the talks on [Medium](https://jenkelleman.medium.com) or on my [Writing page](/writing/).
 
 ---
 

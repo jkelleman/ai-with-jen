@@ -1,14 +1,88 @@
 ---
-title: "Portfolio"
-description: "Selected case studies, frameworks, and systems — shipped at enterprise scale in AI content design, terminology governance, and agentic systems."
+title: "Selected Work"
+description: "Systems I've built at enterprise scale — from naming AI products to governing content across 24 languages. Each project connects terminology research, content architecture, and systems thinking to real product outcomes."
 layout: "single"
+aliases: ["/work/"]
 ---
 
-<p class="project-intro">Detailed case studies and portfolio samples from my work designing AI language systems, terminology governance, and content infrastructure at enterprise scale.</p>
+## What I've built
+
+<p class="project-intro">Systems, frameworks, and tools — shipped at enterprise scale.</p>
+
+<div class="project-grid">
+
+<div class="project-card project-card--featured">
+  <div class="project-header">
+    <h4>Terminology Governance Systems</h4>
+    <span class="project-scope">Microsoft Fabric Data Engineering</span>
+  </div>
+  <p>Canonical language for Lakehouse, Materialized Views, Monitoring, and agentic AI experiences. The naming layer that AI grounding depends on.</p>
+</div>
+
+<div class="project-card">
+  <div class="project-header">
+    <h4>AI-First Design Review</h4>
+    <span class="project-scope">Framework</span>
+  </div>
+  <p>Governance model making AI influence explicit in design reviews. Pitched to leadership as a funded pilot.</p>
+</div>
+
+<div class="project-card">
+  <div class="project-header">
+    <h4>Content + AI Operating Model</h4>
+    <span class="project-scope">Explore → Iterate → Scale</span>
+  </div>
+  <p>3-layer system producing reusable glossaries, evaluation rubrics, and onboarding templates across four product areas.</p>
+</div>
+
+<div class="project-card">
+  <div class="project-header">
+    <h4>Clarity Delta</h4>
+    <span class="project-scope">Evaluation Metric</span>
+  </div>
+  <p>Scoring AI output on terminology accuracy, grounding fidelity, and task completion.</p>
+</div>
+
+<div class="project-card">
+  <div class="project-header">
+    <h4>Promptcraft</h4>
+    <span class="project-scope">Workshop</span>
+    <span class="project-badge">Chosen for Microsoft Design Week 2025</span>
+  </div>
+  <p>Prompt engineering workshop teaching designers to get better AI output.</p>
+  <div class="project-stat">
+    <span class="stat-number">100+</span>
+    <span class="stat-label">designers trained</span>
+  </div>
+</div>
+
+<div class="project-card">
+  <div class="project-header">
+    <h4>VibeHub</h4>
+  </div>
+  <p>Co-led a platform for democratizing UX engineering.</p>
+  <div class="project-stat">
+    <span class="stat-number">2,000+</span>
+    <span class="stat-label">projects in production</span>
+  </div>
+</div>
+
+<div class="project-card project-card--featured">
+  <div class="project-header">
+    <h4>Deaf-Led Sign Language Experiences</h4>
+    <span class="project-badge">3× Hackathon Executive Award</span>
+    <span class="project-badge">Ability Executive Challenge Winner</span>
+  </div>
+  <p>3 workstreams advancing accessible sign language technology.</p>
+</div>
+
+</div>
 
 ---
 
 ## Case Studies
+
+[Request a case study →](mailto:jennifer.kelleman@gmail.com?subject=Case%20study%20request)
 
 <div class="article-grid">
 
@@ -27,7 +101,7 @@ layout: "single"
 </div>
 
 <div class="article-tile">
-  <img src="/images/work/data-agents-content-research.png" alt="Feature Term Ranking chart showing survey results across 51 responses" class="tile-image">
+  <img src="/images/work/data-agents-content-research.png" alt="Feature Term Ranking chart showing survey results across 51 responses with stacked bar visualization" class="tile-image">
   <span class="tag tag-ai">AI Systems</span>
   <h3>Data Agents Naming and Terminology System</h3>
   <p><strong>Project:</strong> Named an autonomous AI product across a cross-functional team with competing preferences.<br>
@@ -41,7 +115,7 @@ layout: "single"
 </div>
 
 <div class="article-tile">
-  <img src="/images/work/AI-content-governance-1.png" alt="From chat to context to agency — the new Copilot UX contract" class="tile-image">
+  <img src="/images/work/AI-content-governance-1.png" alt="From chat to context to agency — the new Copilot UX contract showing contextual autonomy, memory infrastructure, and trust contracts" class="tile-image">
   <span class="tag tag-ai">Governance</span>
   <h3>AI-First Content Governance</h3>
   <p><strong>Project:</strong> Built system-level content patterns and governance structures for AI-assisted authoring at scale.<br>
@@ -55,7 +129,7 @@ layout: "single"
 </div>
 
 <div class="article-tile">
-  <img src="/images/work/AI-content-governance-2.png" alt="AI UX Quality Scorecard showing dimensions for memory, grounding, delegation" class="tile-image">
+  <img src="/images/work/AI-content-governance-2.png" alt="AI UX Quality Scorecard showing dimensions for memory, grounding, delegation, agent control, and beyond chat" class="tile-image">
   <span class="tag tag-tools">Agent Systems</span>
   <h3>Multi-Agent Orchestration System</h3>
   <p><strong>Project:</strong> Designed and deployed a production agent orchestration system for career strategy and content design workflows.<br>
@@ -79,13 +153,14 @@ layout: "single"
 <div class="portfolio-download-card">
   <h4>📄 Resume / CV</h4>
   <p>Full professional resume with experience, education, and certifications.</p>
+  <a href="/resume/" class="btn btn-outline">View resume →</a>
   <a href="/files/jen-kelleman-resume.pdf" class="btn btn-outline" download>Download PDF ↓</a>
 </div>
 
 <!--
   ADD MORE DOWNLOADABLE SAMPLES HERE
   Copy the portfolio-download-card block above and update for each new sample.
-  
+
   Example:
 
 <div class="portfolio-download-card">
@@ -103,41 +178,4 @@ layout: "single"
 
 </div>
 
----
-
-## Frameworks & Tools
-
-<div class="project-grid">
-
-<div class="project-card">
-  <div class="project-header">
-    <h4>Clarity Delta</h4>
-    <span class="project-scope">Evaluation Metric</span>
-  </div>
-  <p>Scoring AI output on terminology accuracy, grounding fidelity, and task completion.</p>
-</div>
-
-<div class="project-card">
-  <div class="project-header">
-    <h4>AI-First Design Review</h4>
-    <span class="project-scope">Framework</span>
-  </div>
-  <p>Governance model making AI influence explicit in design reviews. Pitched to leadership as a funded pilot.</p>
-</div>
-
-<div class="project-card">
-  <div class="project-header">
-    <h4>Content + AI Operating Model</h4>
-    <span class="project-scope">Explore → Iterate → Scale</span>
-  </div>
-  <p>3-layer system producing reusable glossaries, evaluation rubrics, and onboarding templates across four product areas.</p>
-</div>
-
-</div>
-
----
-
-<div class="resume-cta">
-  <a href="/contact/" class="btn">Start the conversation →</a>
-  <a href="/resume/" class="btn btn-outline">View resume →</a>
-</div>
+[Start the conversation →](/contact/)

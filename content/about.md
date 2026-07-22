@@ -166,7 +166,7 @@ I name things for a living — column names, error messages, glossaries, metrics
 Active in the Boston data and AI community through **[Boston PyLadies](https://pyladies.com/)** and **[Boston PyData](https://pydata.org/)**. Always interested in speaking opportunities, teaching partnerships, and conversations about terminology governance, AI grounding, and semantic design.
 
 <div class="connect-links">
-  <a href="/work-with-me/">Work with me →</a>
+  <a href="/services/">Work with me →</a>
   <a href="/contact/">Book me to speak →</a>
   <a href="/speaking/">See where I've spoken →</a>
   <a href="https://www.linkedin.com/in/jenniferkelleman/">LinkedIn</a>

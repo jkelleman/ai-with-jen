@@ -14,29 +14,21 @@ title = "AI with Jen — Designing AI Systems"
     url = "/about/"
     weight = 1
   [[menu.main]]
-    name = "Work"
-    url = "/work/"
-    weight = 2
-  [[menu.main]]
     name = "Portfolio"
     url = "/portfolio/"
-    weight = 3
-  [[menu.main]]
-    name = "Resume"
-    url = "/resume/"
-    weight = 4
+    weight = 2
   [[menu.main]]
     name = "Speaking"
     url = "/speaking/"
-    weight = 5
+    weight = 3
   [[menu.main]]
     name = "Services"
     url = "/services/"
-    weight = 6
+    weight = 4
   [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 7
+    weight = 5
 
   # Footer nav — all pages
   [[menu.footer]]
@@ -44,29 +36,25 @@ title = "AI with Jen — Designing AI Systems"
     url = "/about/"
     weight = 1
   [[menu.footer]]
-    name = "Work"
-    url = "/work/"
-    weight = 2
-  [[menu.footer]]
     name = "Portfolio"
     url = "/portfolio/"
-    weight = 3
+    weight = 2
   [[menu.footer]]
     name = "Resume"
     url = "/resume/"
-    weight = 4
+    weight = 3
   [[menu.footer]]
     name = "Speaking"
     url = "/speaking/"
-    weight = 5
+    weight = 4
   [[menu.footer]]
     name = "Services"
     url = "/services/"
-    weight = 6
+    weight = 5
   [[menu.footer]]
     name = "Contact"
     url = "/contact/"
-    weight = 7
+    weight = 6
 
 [markup]
   [markup.goldmark]
