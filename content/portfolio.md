@@ -153,6 +153,7 @@ aliases: ["/work/"]
 <div class="portfolio-download-card">
   <h4>📄 Resume / CV</h4>
   <p>Full professional resume with experience, education, and certifications.</p>
+  <a href="/resume/" class="btn btn-outline">View resume →</a>
   <a href="/files/jen-kelleman-resume.pdf" class="btn btn-outline" download>Download PDF ↓</a>
 </div>
 
