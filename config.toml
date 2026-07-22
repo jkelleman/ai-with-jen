@@ -14,8 +14,8 @@ title = "AI with Jen — Designing AI Systems"
     url = "/about/"
     weight = 1
   [[menu.main]]
-    name = "Work"
-    url = "/work/"
+    name = "Portfolio"
+    url = "/portfolio/"
     weight = 2
   [[menu.main]]
     name = "Resume"
@@ -40,8 +40,8 @@ title = "AI with Jen — Designing AI Systems"
     url = "/about/"
     weight = 1
   [[menu.footer]]
-    name = "Work"
-    url = "/work/"
+    name = "Portfolio"
+    url = "/portfolio/"
     weight = 2
   [[menu.footer]]
     name = "Resume"

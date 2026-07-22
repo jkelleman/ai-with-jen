@@ -2,7 +2,7 @@
 title: "Selected Work"
 description: "Systems I've built at enterprise scale — from naming AI products to governing content across 24 languages. Each project connects terminology research, content architecture, and systems thinking to real product outcomes."
 layout: "single"
-aliases: ["/portfolio/"]
+aliases: ["/work/"]
 ---
 
 ## What I've built

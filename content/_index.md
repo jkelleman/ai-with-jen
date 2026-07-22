@@ -108,5 +108,5 @@ Tools I use to design, evaluate, and ship world-class AI experiences with clarit
 
 <div class="home-cta">
 	<a class="home-cta-primary" href="/contact/">Start the conversation</a>
-	<a class="home-cta-secondary" href="/work/">Read the case studies</a>
+	<a class="home-cta-secondary" href="/portfolio/">Read the case studies</a>
 </div>
