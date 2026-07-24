@@ -80,6 +80,56 @@ aliases: ["/work/"]
 
 ---
 
+## Open Source Systems
+
+<p class="project-intro">Independent builds applying the same systems-design thinking — semantic layers, evaluation loops, and agent orchestration — outside the enterprise walls.</p>
+
+<div class="article-grid">
+
+<div class="article-tile article-tile--featured">
+  <span class="tag tag-data">Semantic Layer Design</span>
+  <h3>Semantic Metrics Modeling Assistant</h3>
+  <p><strong>Design problem:</strong> Data teams face metric proliferation, trust deficits, and governance fragmentation — the same metric gets defined five different ways across dashboards, and no one can tell which version to trust.<br>
+  <strong>System thinking:</strong> Built an MCP agent with a conversational interface over a 5-table persistent schema (metrics, history, tests, usage, trust). Trust is computed with a weighted scoring model — tests 35%, usage 20%, freshness 15%, documentation 15%, ownership 15% — with Mermaid/ASCII lineage visualization and circular-dependency detection.<br>
+  <strong>Artifacts:</strong> Architecture diagram in the README, 5-table schema, 35+ pytest suite at 90%+ coverage, LookML/dbt/Tableau exporters.<br>
+  <strong>What it demonstrates:</strong> <em>Harness Engineering</em> — the test suite and CI/CD-ready guardrails wrapping every metric definition. <em>AI Evaluation Systems</em> — the weighted, multi-dimensional trust rubric. <em>Semantic Layer Design</em> — the schema and lineage model that makes dependencies visible instead of implicit.</p>
+  <a href="https://github.com/jkelleman/semantic-metrics-modeling-assistant" class="btn btn-outline" target="_blank" rel="noopener">View on GitHub →</a>
+</div>
+
+<div class="article-tile">
+  <span class="tag tag-ai">Context Architecture</span>
+  <h3>AI-Assisted Insights Agent</h3>
+  <p><strong>Design problem:</strong> Analysts lose hours translating stakeholder questions into SQL, results ship with no audit trail, and business language ("active customers") never maps cleanly onto technical definitions.<br>
+  <strong>System thinking:</strong> Grounded natural-language-to-SQL translation in a governed semantic layer, so every answer is explainable (query shown, metrics cited, data quality and assumptions surfaced) and reproducible (versioned metric definitions, saved query templates).<br>
+  <strong>Artifacts:</strong> README with problem/solution architecture breakdown, example query translations, CI pipeline.<br>
+  <strong>What it demonstrates:</strong> <em>Context Architecture</em> — grounding NL queries in a trusted semantic layer rather than free-floating prompts. <em>Decision Traceability</em> — every insight ships with the query and assumptions that produced it. <em>Responsible AI</em> — explicit disclosure of data quality and limitations instead of a black-box answer.</p>
+  <a href="https://github.com/jkelleman/ai-assisted-insights-agent" class="btn btn-outline" target="_blank" rel="noopener">View on GitHub →</a>
+</div>
+
+<div class="article-tile">
+  <span class="tag tag-content">Semantic Modeling</span>
+  <h3>Wedding Planning Agent</h3>
+  <p><strong>Design problem:</strong> Planning a wedding surfaced the same failure pattern I see in analytics platforms: information scattered across 68 vendor PDFs with zero semantic structure, invisible dependencies between decisions, and no way to tell if a vendor's quote was actually reasonable.<br>
+  <strong>System thinking:</strong> Modeled vendor and budget data as structured entities (Venue → Price/Capacity/Dietary Options, Menu Item → Dietary Accommodations, Budget Allocation → Actual Spend), built real-time dependency mapping ("this menu → these beverages → this cost → this much budget remaining"), and replaced black-box recommendations with a fit-score that shows its reasoning.<br>
+  <strong>Artifacts:</strong> README written as a design case study, an examples/templates/docs structure ("see it → try it → learn it"), worked fit-score examples.<br>
+  <strong>What it demonstrates:</strong> <em>Semantic Layer Design</em> — turning messy PDFs into structured, queryable entities. <em>Decision Traceability</em> — every recommendation traces back to its source document and shows its logic. <em>Intent Engineering</em> — organizing the workflow around how people actually decide, not how the data happened to be filed.</p>
+  <a href="https://github.com/jkelleman/wedding-planning-agent" class="btn btn-outline" target="_blank" rel="noopener">View on GitHub →</a>
+</div>
+
+<div class="article-tile">
+  <span class="tag tag-career">Governance Framework</span>
+  <h3>AI Content Design Handbook</h3>
+  <p><strong>Design problem:</strong> Content designers had no shared, practical reference for the responsibilities that come with AI-powered products — evaluating AI output quality, disclosing AI use responsibly, structuring content so AI can consume it.<br>
+  <strong>System thinking:</strong> Structured as a reusable framework — templates, workflows, and rubrics — rather than a static reference: a 5-method content testing framework, 7-type bias detection guide, and explicit transparency guidelines sit alongside day-to-day templates.<br>
+  <strong>Artifacts:</strong> Indexed README, dedicated AI-content and conversational-design templates, workflow guides (Git for content designers, content review process), ethical AI guideline docs.<br>
+  <strong>What it demonstrates:</strong> <em>Acceptance Criteria Design</em> — explicit, repeatable methods for evaluating AI-generated content. <em>Responsible AI</em> — bias detection and transparency built into the workflow, not bolted on. <em>Knowledge Systems Design</em> — a structured, reusable framework instead of one-off tribal knowledge.</p>
+  <a href="https://github.com/jkelleman/ai-content-design-handbook" class="btn btn-outline" target="_blank" rel="noopener">View on GitHub →</a>
+</div>
+
+</div>
+
+---
+
 ## Case Studies
 
 [Request a case study →](mailto:jennifer.kelleman@gmail.com?subject=Case%20study%20request)
