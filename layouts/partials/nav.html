@@ -9,6 +9,9 @@
     <button class="nav-toggle" aria-label="Toggle navigation">
       <span></span><span></span><span></span>
     </button>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+      <span class="icon-sun">☀️</span><span class="icon-moon">🌙</span>
+    </button>
   </div>
 </header>
 <script>
@@ -16,4 +19,16 @@
     document.querySelector('.site-nav').classList.toggle('open');
     this.classList.toggle('open');
   });
+
+  (function() {
+    var toggle = document.getElementById('themeToggle');
+    if (!toggle) return;
+    toggle.addEventListener('click', function() {
+      var root = document.documentElement;
+      var current = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      var next = current === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+  })();
 </script>

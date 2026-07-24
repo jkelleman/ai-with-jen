@@ -17,17 +17,43 @@
   --color-bg-accent: #E2F0ED;
   --color-text: #1A1A1A;
   --color-text-secondary: #3E3E3E;
+  --color-text-light: #6B6B6B;
   --color-accent: #1A8A7D;
   --color-accent-dark: #14706A;
   --color-accent-light: #D4F0EC;
   --color-border: #D8D6D0;
   --color-white: #FFFFFF;
+  --color-surface: #FFFFFF;
   --color-blockquote-bg: #F0EBE1;
   --color-blockquote-bar: #C9956B;
   --font-heading: 'Source Serif 4', Georgia, 'Times New Roman', serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --max-width: 960px;
   --max-width-wide: 1080px;
+  color-scheme: light;
+}
+
+html[data-theme="dark"] {
+  --color-bg: #14181A;
+  --color-bg-alt: #1D2224;
+  --color-bg-accent: #16302C;
+  --color-text: #EDEDEB;
+  --color-text-secondary: #C2C2BE;
+  --color-text-light: #9A9A96;
+  --color-accent: #35B8A6;
+  --color-accent-dark: #4FCCBA;
+  --color-accent-light: #1E3D38;
+  --color-border: #333937;
+  --color-surface: #1D2224;
+  --color-blockquote-bg: #22201B;
+  --color-blockquote-bar: #C9956B;
+  color-scheme: dark;
+}
+
+/* Smooth theme transition */
+body, .site-header, .project-card, .article-tile, .service-card, .case-study-card,
+.resume-entry, .resume-project, .portfolio-download-card, .featured-card, .article-card {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
 html {
@@ -162,12 +188,177 @@ td strong {
   -webkit-overflow-scrolling: touch;
 }
 
+/* --- Portfolio rail nav & back-to-top --- */
+.portfolio-toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin: 0 0 2rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.portfolio-toc a {
+  font-family: var(--font-body);
+  font-size: 0.85rem
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--color-text-light);
+  text-decoration: none;
+  padding: 0.35rem 0.85rem;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.portfolio-toc a:hover {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.portfolio-toc a.active {
+  color: var(--color-white);
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.portfolio-railnav {
+  position: fixed;
+  left: 1.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.35rem;
+  padding: 1rem 0;
+}
+
+.portfolio-railnav::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  transform: translateX(-50%);
+  background: linear-gradient(to bottom, transparent, var(--color-border) 15%, var(--color-border) 85%, transparent);
+  z-index: -1;
+}
+
+.portfolio-railnav a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  text-decoration: none;
+}
+
+.rail-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.portfolio-railnav a:hover .rail-dot,
+.portfolio-railnav a.active .rail-dot {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  transform: scale(1.5);
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.06), 0 0 12px 2px var(--color-accent);
+}
+
+@keyframes railnavIntro {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(0,0,0,0); }
+  50% { box-shadow: 0 0 0 5px rgba(0,0,0,0.05); }
+}
+
+.portfolio-railnav a.active .rail-dot {
+  animation: railnavIntro 1.8s ease-in-out 2;
+}
+
+.portfolio-railnav a::after {
+  content: attr(data-label);
+  position: absolute;
+  left: 26px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--font-body);
+  font-size: 0.75rem
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--color-text);
+  background: var(--color-surface);
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  border: 1px solid var(--color-border);
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s ease;
+  pointer-events: none;
+}
+
+.portfolio-railnav a:hover::after,
+.portfolio-railnav a.active::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 900px) {
+  .portfolio-railnav {
+    display: none;
+  }
+}
+
+h2[id] {
+  scroll-margin-top: 32px;
+}
+
+.back-to-top {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--color-accent);
+  color: var(--color-white);
+  font-size: 1.2rem;
+  text-decoration: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 95;
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  background: var(--color-accent-dark);
+}
+
 /* --- Header / Navigation --- */
 .site-header {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: var(--color-white);
+  background: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
   backdrop-filter: blur(12px);
   background: rgba(255, 255, 255, 0.95);
@@ -230,6 +421,32 @@ td strong {
   margin: 5px 0;
   transition: 0.3s;
 }
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  margin-left: 0.5rem;
+  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
+}
+
+.theme-toggle:hover {
+  border-color: var(--color-accent);
+  transform: scale(1.06);
+}
+
+.theme-toggle .icon-moon { display: none; }
+html[data-theme="dark"] .theme-toggle .icon-sun { display: none; }
+html[data-theme="dark"] .theme-toggle .icon-moon { display: inline; }
 
 /* --- Hero (Home page) --- */
 .hero {
@@ -308,7 +525,7 @@ td strong {
   font-size: 0.78rem;
   font-weight: 500;
   color: var(--color-text-secondary);
-  background: var(--color-white);
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 20px;
   padding: 0.35rem 0.85rem;
@@ -336,7 +553,7 @@ td strong {
 }
 
 .project-card {
-  background: var(--color-white);
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-left: 3px solid var(--color-accent);
   border-radius: 0 10px 10px 0;
@@ -431,6 +648,49 @@ td strong {
   margin: 0 0 0.25rem;
   font-style: italic;
 }
+
+/* Compact "Demonstrates" line and GitHub link for OSS project cards */
+.project-demonstrates {
+  font-size: 0.82rem !important;
+  margin-top: 0.6rem !important;
+  padding-top: 0.55rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 0.6rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.project-link:hover {
+  color: var(--color-accent-dark);
+  text-decoration: underline;
+}
+
+/* Color-coded accents for Open Source Systems cards */
+.project-card--purple { border-left-color: #4A3D8F; }
+.project-card--purple .project-scope { color: #4A3D8F; }
+.project-card--purple .project-link { color: #4A3D8F; }
+.project-card--purple .project-link:hover { color: #7B6DC8; }
+
+.project-card--teal { border-left-color: #1A6B5A; }
+.project-card--teal .project-scope { color: #1A6B5A; }
+.project-card--teal .project-link { color: #1A6B5A; }
+.project-card--teal .project-link:hover { color: #3DA890; }
+
+.project-card--amber { border-left-color: #8B6B3A; }
+.project-card--amber .project-scope { color: #8B6B3A; }
+.project-card--amber .project-link { color: #8B6B3A; }
+.project-card--amber .project-link:hover { color: #C4955A; }
+
+.project-card--blue { border-left-color: #2A4A6B; }
+.project-card--blue .project-scope { color: #2A4A6B; }
+.project-card--blue .project-link { color: #2A4A6B; }
+.project-card--blue .project-link:hover { color: #4A7AA0; }
 
 @media (max-width: 768px) {
   .project-grid {
@@ -574,7 +834,7 @@ td strong {
   display: flex;
   align-items: flex-start;
   gap: 1rem;
-  background: var(--color-white);
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 10px;
   padding: 1.25rem;
@@ -676,7 +936,7 @@ td strong {
 
 .featured-card {
   position: relative;
-  background: var(--color-white);
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 12px;
   overflow: hidden;
@@ -757,7 +1017,7 @@ td strong {
   align-items: center;
   gap: 0.45rem;
   padding: 0.4rem 0.75rem 0.4rem 0.45rem;
-  background: var(--color-white);
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 999px;
   color: var(--color-text-secondary);
@@ -869,7 +1129,7 @@ td strong {
 
 .article-card {
   display: block;
-  background: var(--color-white);
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 10px;
   padding: 1.5rem;
@@ -940,7 +1200,7 @@ td strong {
 .article-tile {
   display: flex;
   flex-direction: column;
-  background: var(--color-white);
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 12px;
   overflow: hidden;
@@ -1146,7 +1406,7 @@ td strong {
 }
 
 .service-card {
-  background: var(--color-white);
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 10px;
   padding: 2rem;
@@ -1228,8 +1488,8 @@ td strong {
   position: relative;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0) 18%),
-    var(--color-text);
-  color: var(--color-bg);
+    #14151A;
+  color: #F7F6F2;
   padding: 4rem 2rem 2rem;
   margin-top: 4.5rem;
   border-top: 1px solid rgba(250, 250, 248, 0.08);
@@ -1248,13 +1508,13 @@ td strong {
   font-family: var(--font-heading);
   font-size: 1.35rem;
   font-weight: 700;
-  color: var(--color-bg);
+  color: #F7F6F2;
   text-decoration: none;
   letter-spacing: -0.02em;
 }
 
 .footer-logo:hover {
-  color: var(--color-accent-light);
+  color: #D4F0EC;
 }
 
 .footer-kicker {
@@ -1313,7 +1573,7 @@ td strong {
 }
 
 .footer-col a:hover {
-  color: var(--color-accent-light);
+  color: #D4F0EC;
 }
 
 .footer-copy {
@@ -1343,7 +1603,7 @@ td strong {
     top: 100%;
     left: 0;
     right: 0;
-    background: var(--color-white);
+    background: var(--color-surface);
     border-bottom: 1px solid var(--color-border);
     flex-direction: column;
     padding: 1rem 1.5rem;
@@ -1526,7 +1786,7 @@ td strong {
   padding: 0.4rem 1rem;
   border: 1.5px solid var(--color-border);
   border-radius: 20px;
-  background: var(--color-white);
+  background: var(--color-surface);
   color: var(--color-text-secondary);
   cursor: pointer;
   transition: all 0.2s ease;
@@ -1553,7 +1813,7 @@ td strong {
 
 /* --- Individual card --- */
 .case-study-card {
-  background: var(--color-white);
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 16px;
   overflow: hidden;
@@ -1762,7 +2022,7 @@ td strong {
 
 .password-modal-content {
   position: relative;
-  background: var(--color-white);
+  background: var(--color-surface);
   border-radius: 12px;
   padding: 2rem 2.25rem;
   max-width: 400px;
@@ -1978,7 +2238,7 @@ td strong {
 }
 
 .resume-entry {
-  background: var(--color-white);
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-left: 3px solid var(--color-accent);
   border-radius: 0 10px 10px 0;
@@ -2044,7 +2304,7 @@ td strong {
 }
 
 .resume-project {
-  background: var(--color-white);
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 10px;
   padding: 1.25rem 1.5rem;
@@ -2122,7 +2382,7 @@ td strong {
 }
 
 .portfolio-download-card {
-  background: var(--color-white);
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 10px;
   padding: 1.5rem;

@@ -5,13 +5,69 @@ layout: "single"
 aliases: ["/work/"]
 ---
 
-## What I've built
+<nav class="portfolio-toc" aria-label="Section overview">
+  <a href="#enterprise-design-system">Enterprise Design System</a>
+  <a href="#open-source-systems">Open Source Systems</a>
+  <a href="#case-studies">Case Studies</a>
+  <a href="#downloadable-samples">Resume &amp; Samples</a>
+</nav>
 
-<p class="project-intro">Systems, frameworks, and tools — shipped at enterprise scale.</p>
+<nav class="portfolio-railnav" aria-label="Jump to section">
+  <a href="#enterprise-design-system" data-label="Enterprise Design System"><span class="rail-dot"></span></a>
+  <a href="#open-source-systems" data-label="Open Source Systems"><span class="rail-dot"></span></a>
+  <a href="#case-studies" data-label="Case Studies"><span class="rail-dot"></span></a>
+  <a href="#downloadable-samples" data-label="Resume &amp; Samples"><span class="rail-dot"></span></a>
+</nav>
+
+<a id="backToTop" class="back-to-top" href="#" aria-label="Back to top">↑</a>
+<script>
+  (function() {
+    var btn = document.getElementById('backToTop');
+    if (btn) {
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 600) {
+          btn.classList.add('visible');
+        } else {
+          btn.classList.remove('visible');
+        }
+      });
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+
+    var navGroups = Array.prototype.slice.call(document.querySelectorAll('.portfolio-toc, .portfolio-railnav'));
+    if (!navGroups.length) return;
+    var allLinks = [];
+    navGroups.forEach(function(nav) {
+      allLinks = allLinks.concat(Array.prototype.slice.call(nav.querySelectorAll('a')));
+    });
+    var hrefs = Array.prototype.slice.call(new Set(allLinks.map(function(a) { return a.getAttribute('href'); })));
+    var sections = hrefs.map(function(h) { return document.getElementById(h.slice(1)); });
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        var idx = sections.indexOf(entry.target);
+        if (idx === -1) return;
+        if (entry.isIntersecting) {
+          var href = hrefs[idx];
+          allLinks.forEach(function(l) {
+            l.classList.toggle('active', l.getAttribute('href') === href);
+          });
+        }
+      });
+    }, { rootMargin: '-45% 0px -45% 0px' });
+    sections.forEach(function(s) { if (s) observer.observe(s); });
+  })();
+</script>
+
+## Enterprise Design System
+
+<p class="project-intro">Governance models, evaluation frameworks, and naming architecture — shipped inside Microsoft Fabric to make AI-assisted data engineering trustworthy at scale.</p>
 
 <div class="project-grid">
 
-<div class="project-card project-card--featured">
+<div class="project-card project-card--featured project-card--teal">
   <div class="project-header">
     <h4>Terminology Governance Systems</h4>
     <span class="project-scope">Microsoft Fabric Data Engineering</span>
@@ -19,7 +75,7 @@ aliases: ["/work/"]
   <p>Canonical language for Lakehouse, Materialized Views, Monitoring, and agentic AI experiences. The naming layer that AI grounding depends on.</p>
 </div>
 
-<div class="project-card">
+<div class="project-card project-card--purple">
   <div class="project-header">
     <h4>AI-First Design Review</h4>
     <span class="project-scope">Framework</span>
@@ -27,7 +83,7 @@ aliases: ["/work/"]
   <p>Governance model making AI influence explicit in design reviews. Pitched to leadership as a funded pilot.</p>
 </div>
 
-<div class="project-card">
+<div class="project-card project-card--amber">
   <div class="project-header">
     <h4>Content + AI Operating Model</h4>
     <span class="project-scope">Explore → Iterate → Scale</span>
@@ -35,7 +91,7 @@ aliases: ["/work/"]
   <p>3-layer system producing reusable glossaries, evaluation rubrics, and onboarding templates across four product areas.</p>
 </div>
 
-<div class="project-card">
+<div class="project-card project-card--blue">
   <div class="project-header">
     <h4>Clarity Delta</h4>
     <span class="project-scope">Evaluation Metric</span>
@@ -43,7 +99,7 @@ aliases: ["/work/"]
   <p>Scoring AI output on terminology accuracy, grounding fidelity, and task completion.</p>
 </div>
 
-<div class="project-card">
+<div class="project-card project-card--teal">
   <div class="project-header">
     <h4>Promptcraft</h4>
     <span class="project-scope">Workshop</span>
@@ -56,7 +112,7 @@ aliases: ["/work/"]
   </div>
 </div>
 
-<div class="project-card">
+<div class="project-card project-card--purple">
   <div class="project-header">
     <h4>VibeHub</h4>
   </div>
@@ -67,7 +123,7 @@ aliases: ["/work/"]
   </div>
 </div>
 
-<div class="project-card project-card--featured">
+<div class="project-card project-card--featured project-card--amber">
   <div class="project-header">
     <h4>Deaf-Led Sign Language Experiences</h4>
     <span class="project-badge">3× Hackathon Executive Award</span>
@@ -84,46 +140,46 @@ aliases: ["/work/"]
 
 <p class="project-intro">Independent builds applying the same systems-design thinking — semantic layers, evaluation loops, and agent orchestration — outside the enterprise walls.</p>
 
-<div class="article-grid">
+<div class="project-grid">
 
-<div class="article-tile article-tile--featured">
-  <span class="tag tag-data">Semantic Layer Design</span>
-  <h3>Semantic Metrics Modeling Assistant</h3>
-  <p><strong>Design problem:</strong> Data teams face metric proliferation, trust deficits, and governance fragmentation — the same metric gets defined five different ways across dashboards, and no one can tell which version to trust.<br>
-  <strong>System thinking:</strong> Built an MCP agent with a conversational interface over a 5-table persistent schema (metrics, history, tests, usage, trust). Trust is computed with a weighted scoring model — tests 35%, usage 20%, freshness 15%, documentation 15%, ownership 15% — with Mermaid/ASCII lineage visualization and circular-dependency detection.<br>
-  <strong>Artifacts:</strong> Architecture diagram in the README, 5-table schema, 35+ pytest suite at 90%+ coverage, LookML/dbt/Tableau exporters.<br>
-  <strong>What it demonstrates:</strong> <em>Harness Engineering</em> — the test suite and CI/CD-ready guardrails wrapping every metric definition. <em>AI Evaluation Systems</em> — the weighted, multi-dimensional trust rubric. <em>Semantic Layer Design</em> — the schema and lineage model that makes dependencies visible instead of implicit.</p>
-  <a href="https://github.com/jkelleman/semantic-metrics-modeling-assistant" class="btn btn-outline" target="_blank" rel="noopener">View on GitHub →</a>
+<div class="project-card project-card--featured project-card--teal">
+  <div class="project-header">
+    <h4>Semantic Metrics Modeling Assistant</h4>
+    <span class="project-scope">MCP Agent · Semantic Layer Design</span>
+  </div>
+  <p>Built an MCP agent with a weighted trust-scoring model and lineage visualization over a governed schema, backed by 35+ tests at 90%+ coverage.</p>
+  <p class="project-demonstrates"><strong>Demonstrates:</strong> Harness Engineering · AI Evaluation Systems · Semantic Layer Design</p>
+  <a href="https://github.com/jkelleman/semantic-metrics-modeling-assistant" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
 </div>
 
-<div class="article-tile">
-  <span class="tag tag-ai">Context Architecture</span>
-  <h3>AI-Assisted Insights Agent</h3>
-  <p><strong>Design problem:</strong> Analysts lose hours translating stakeholder questions into SQL, results ship with no audit trail, and business language ("active customers") never maps cleanly onto technical definitions.<br>
-  <strong>System thinking:</strong> Grounded natural-language-to-SQL translation in a governed semantic layer, so every answer is explainable (query shown, metrics cited, data quality and assumptions surfaced) and reproducible (versioned metric definitions, saved query templates).<br>
-  <strong>Artifacts:</strong> README with problem/solution architecture breakdown, example query translations, CI pipeline.<br>
-  <strong>What it demonstrates:</strong> <em>Context Architecture</em> — grounding NL queries in a trusted semantic layer rather than free-floating prompts. <em>Decision Traceability</em> — every insight ships with the query and assumptions that produced it. <em>Responsible AI</em> — explicit disclosure of data quality and limitations instead of a black-box answer.</p>
-  <a href="https://github.com/jkelleman/ai-assisted-insights-agent" class="btn btn-outline" target="_blank" rel="noopener">View on GitHub →</a>
+<div class="project-card project-card--purple">
+  <div class="project-header">
+    <h4>AI-Assisted Insights Agent</h4>
+    <span class="project-scope">MCP Agent · Context Architecture</span>
+  </div>
+  <p>Grounded NL-to-SQL translation in a governed semantic layer so every answer ships with its query and data-quality caveats.</p>
+  <p class="project-demonstrates"><strong>Demonstrates:</strong> Context Architecture · Decision Traceability · Responsible AI</p>
+  <a href="https://github.com/jkelleman/ai-assisted-insights-agent" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
 </div>
 
-<div class="article-tile">
-  <span class="tag tag-content">Semantic Modeling</span>
-  <h3>Wedding Planning Agent</h3>
-  <p><strong>Design problem:</strong> Planning a wedding surfaced the same failure pattern I see in analytics platforms: information scattered across 68 vendor PDFs with zero semantic structure, invisible dependencies between decisions, and no way to tell if a vendor's quote was actually reasonable.<br>
-  <strong>System thinking:</strong> Modeled vendor and budget data as structured entities (Venue → Price/Capacity/Dietary Options, Menu Item → Dietary Accommodations, Budget Allocation → Actual Spend), built real-time dependency mapping ("this menu → these beverages → this cost → this much budget remaining"), and replaced black-box recommendations with a fit-score that shows its reasoning.<br>
-  <strong>Artifacts:</strong> README written as a design case study, an examples/templates/docs structure ("see it → try it → learn it"), worked fit-score examples.<br>
-  <strong>What it demonstrates:</strong> <em>Semantic Layer Design</em> — turning messy PDFs into structured, queryable entities. <em>Decision Traceability</em> — every recommendation traces back to its source document and shows its logic. <em>Intent Engineering</em> — organizing the workflow around how people actually decide, not how the data happened to be filed.</p>
-  <a href="https://github.com/jkelleman/wedding-planning-agent" class="btn btn-outline" target="_blank" rel="noopener">View on GitHub →</a>
+<div class="project-card project-card--amber">
+  <div class="project-header">
+    <h4>Wedding Planning Agent</h4>
+    <span class="project-scope">Systems Design · Semantic Modeling</span>
+  </div>
+  <p>Modeled vendors and budget as structured entities with real-time dependency mapping and a fit-score that shows its reasoning.</p>
+  <p class="project-demonstrates"><strong>Demonstrates:</strong> Semantic Layer Design · Decision Traceability · Intent Engineering</p>
+  <a href="https://github.com/jkelleman/wedding-planning-agent" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
 </div>
 
-<div class="article-tile">
-  <span class="tag tag-career">Governance Framework</span>
-  <h3>AI Content Design Handbook</h3>
-  <p><strong>Design problem:</strong> Content designers had no shared, practical reference for the responsibilities that come with AI-powered products — evaluating AI output quality, disclosing AI use responsibly, structuring content so AI can consume it.<br>
-  <strong>System thinking:</strong> Structured as a reusable framework — templates, workflows, and rubrics — rather than a static reference: a 5-method content testing framework, 7-type bias detection guide, and explicit transparency guidelines sit alongside day-to-day templates.<br>
-  <strong>Artifacts:</strong> Indexed README, dedicated AI-content and conversational-design templates, workflow guides (Git for content designers, content review process), ethical AI guideline docs.<br>
-  <strong>What it demonstrates:</strong> <em>Acceptance Criteria Design</em> — explicit, repeatable methods for evaluating AI-generated content. <em>Responsible AI</em> — bias detection and transparency built into the workflow, not bolted on. <em>Knowledge Systems Design</em> — a structured, reusable framework instead of one-off tribal knowledge.</p>
-  <a href="https://github.com/jkelleman/ai-content-design-handbook" class="btn btn-outline" target="_blank" rel="noopener">View on GitHub →</a>
+<div class="project-card project-card--blue">
+  <div class="project-header">
+    <h4>AI Content Design Handbook</h4>
+    <span class="project-scope">Framework · Governance</span>
+  </div>
+  <p>Built a reusable framework of testing methods, bias-detection guides, and transparency templates.</p>
+  <p class="project-demonstrates"><strong>Demonstrates:</strong> Acceptance Criteria Design · Responsible AI · Knowledge Systems Design</p>
+  <a href="https://github.com/jkelleman/ai-content-design-handbook" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
 </div>
 
 </div>
@@ -131,6 +187,8 @@ aliases: ["/work/"]
 ---
 
 ## Case Studies
+
+<p class="project-intro">Full-length projects in information architecture, taxonomy &amp; ontology, agent orchestration, and responsible AI — the research, trade-offs, and measurable outcomes behind each system.</p>
 
 [Request a case study →](mailto:jennifer.kelleman@gmail.com?subject=Case%20study%20request)
 
