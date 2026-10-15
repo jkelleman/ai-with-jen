@@ -1,13 +1,13 @@
 ---
 title: "Resume"
-description: "Jen Kelleman — AI and data product professional building Python-based agents, governed data systems, and responsible AI evaluation frameworks."
+description: "Jen Kelleman — AI-first product and UX leader building responsible AI experiences, agent systems, and scalable design practices."
 layout: "single"
 ---
 
 <div class="resume-header">
   <div class="resume-header-text">
-    <p class="resume-subtitle">Applied AI · Agent Systems · Responsible AI</p>
-    <p class="resume-summary">AI and data product professional with 15+ years of enterprise product experience and hands-on Python engineering projects in agentic AI. I build MCP agents and governed data workflows with an emphasis on evaluation, traceability, and responsible use. Experienced translating ambiguous product needs into reusable systems and aligning work across engineering, product, and design.</p>
+    <p class="resume-subtitle">AI-First Product &amp; UX Leadership · Responsible AI · Agent Systems</p>
+    <p class="resume-summary">Product and UX leader with 15+ years of experience shaping enterprise technology and AI experiences. I turn ambiguous problems into clear product systems, prototypes, evaluation frameworks, and reusable practices—working across design, product, and engineering. My work spans Microsoft Fabric, responsible AI, agent workflows, and independent Python-based AI projects.</p>
     <a href="/files/jen-kelleman-resume.pdf" class="btn resume-download" download>Download PDF ↓</a>
   </div>
 </div>
@@ -25,11 +25,12 @@ layout: "single"
   </div>
   <p class="resume-role">Content Designer, AI & Data Products</p>
   <ul>
-    <li>Lead terminology and governance strategy for Microsoft Fabric Data Engineering, partnering with engineering, product, and design on AI and data product experiences.</li>
-    <li>Shape workflows and information architecture for Lakehouse, Materialized Views, Monitoring, and agentic AI features.</li>
-    <li>Designed an information architecture and status taxonomy covering nine notebook dependency scenarios to make status easier to scan during incident response.</li>
-    <li>Built a structured evaluation framework for 60+ product-name candidates and synthesized user research to support cross-functional decisions.</li>
-    <li>Develop reusable glossaries, evaluation rubrics, and onboarding templates across four product areas; define quality considerations including terminology accuracy, grounding fidelity, and task completion.</li>
+    <li>Lead terminology strategy and governance for Fabric Data Engineering, shaping how users understand and work with complex data and AI capabilities.</li>
+    <li>Partner across design, product, and engineering on experiences spanning Lakehouse, Materialized Views, Monitoring, and agentic AI.</li>
+    <li>Designed information architecture and a status taxonomy for nine notebook dependency scenarios to make operational status easier to scan.</li>
+    <li>Built a research-backed framework to evaluate 60+ product-name candidates; aligned stakeholders through senior technical and executive review.</li>
+    <li>Created reusable glossaries, evaluation rubrics, and onboarding patterns across four product areas, including criteria for terminology accuracy, grounding, and task completion.</li>
+    <li>Developed AI-first design review and content governance practices that make AI influence, quality, and human judgment explicit.</li>
   </ul>
 </div>
 
@@ -37,36 +38,34 @@ layout: "single"
 
 ---
 
-## Independent AI Engineering Projects
+## Selected AI, UX & Responsible AI Work
 
 <div class="resume-projects">
 
 <div class="resume-project">
-  <h4>Semantic Metrics Modeling Assistant</h4>
-  <span class="resume-project-scope">Python · MCP · SQLite · pytest</span>
-  <p>Built an MCP agent with tools for defining and validating metrics, searching a semantic catalog, and visualizing lineage. Implemented persistent storage, change history, and weighted trust scoring. Project materials report 35+ tests and 90%+ core coverage.</p>
-  <a href="https://github.com/jkelleman/semantic-metrics-modeling-assistant" target="_blank" rel="noopener">View project →</a>
+  <h4>AI Agent &amp; Prototyping Practice</h4>
+  <span class="resume-project-scope">Independent · Python · GitHub</span>
+  <p>Designed an agent workflow system with eight specialized agents and custom skills. Built MCP agents for governed metrics and explainable data insights; the metrics project includes persistent storage, trust scoring, lineage, and 35+ tests. Uses hands-on prototyping to explore how AI can improve real workflows.</p>
+  <a href="https://github.com/jkelleman" target="_blank" rel="noopener">View GitHub projects →</a>
 </div>
 
 <div class="resume-project">
-  <h4>AI-Assisted Insights Agent</h4>
-  <span class="resume-project-scope">Python · MCP · SQL</span>
-  <p>Built an agent that translates natural-language questions into SQL using governed metric definitions. Designed query validation, data-quality checks, and responses that surface SQL, assumptions, and limitations to support review and reproducibility.</p>
-  <a href="https://github.com/jkelleman/ai-assisted-insights-agent" target="_blank" rel="noopener">View project →</a>
+  <h4>Responsible AI &amp; Quality Frameworks</h4>
+  <span class="resume-project-scope">Open-source handbook · Enterprise frameworks</span>
+  <p>Created reusable AI evaluation, bias-detection, safety, and transparency guidance. Developed quality rubrics and trust signals for AI-assisted experiences, with emphasis on explainability, grounding, and human accountability.</p>
+  <a href="https://github.com/jkelleman/ai-content-design-handbook" target="_blank" rel="noopener">View handbook →</a>
 </div>
 
 <div class="resume-project">
-  <h4>AI Content Design Handbook</h4>
-  <span class="resume-project-scope">Responsible AI · Evaluation · Open source</span>
-  <p>Created reusable guidance and templates for AI content evaluation, bias detection, content safety, and transparency.</p>
-  <a href="https://github.com/jkelleman/ai-content-design-handbook" target="_blank" rel="noopener">View project →</a>
+  <h4>Promptcraft &amp; Accessible Experiences</h4>
+  <span class="resume-project-scope">Microsoft Design Week · Hackathons</span>
+  <p>Created a prompt engineering workshop selected for Microsoft Design Week and trained 100+ designers. Contributed to Deaf-led sign-language experience work recognized with three executive hackathon awards and an Ability Executive Challenge win.</p>
 </div>
 
 <div class="resume-project">
-  <h4>Agent Orchestration System</h4>
-  <span class="resume-project-scope">Independent system · GitHub</span>
-  <p>Designed a version-controlled workflow system with eight specialized agents, custom skills, and automation across 320+ files to make repeatable work easier to coordinate and maintain.</p>
-  <a href="https://github.com/jkelleman" target="_blank" rel="noopener">View GitHub profile →</a>
+  <h4>VibeHub</h4>
+  <span class="resume-project-scope">UX Engineering Platform · Co-lead</span>
+  <p>Co-led a platform to democratize UX engineering, supporting more than 10,000 projects in production.</p>
 </div>
 
 </div>
@@ -144,27 +143,27 @@ layout: "single"
   <div class="expertise-category">
     <h4>AI & Agent Systems</h4>
     <div class="expertise-tags">
-      <span class="expertise-tag">MCP Agent Development</span>
-      <span class="expertise-tag">Agent Tool Integration</span>
-      <span class="expertise-tag">Prompt Engineering</span>
-      <span class="expertise-tag">LLM Application Design</span>
-      <span class="expertise-tag">AI Evaluation Frameworks</span>
       <span class="expertise-tag">Responsible AI</span>
-      <span class="expertise-tag">Trust and Transparency</span>
+      <span class="expertise-tag">AI Evaluation &amp; Trust</span>
+      <span class="expertise-tag">Agent Workflows</span>
+      <span class="expertise-tag">Prompt Engineering</span>
       <span class="expertise-tag">Semantic Grounding</span>
-      <span class="expertise-tag">Agent Workflow Design</span>
-      <span class="expertise-tag">Data Lineage</span>
+      <span class="expertise-tag">AI Prototyping</span>
+      <span class="expertise-tag">MCP Agents</span>
+      <span class="expertise-tag">Safety &amp; Transparency</span>
     </div>
   </div>
   <div class="expertise-category">
     <h4>Content & Design Systems</h4>
     <div class="expertise-tags">
-      <span class="expertise-tag">Product and Systems Thinking</span>
+      <span class="expertise-tag">UX &amp; Product Strategy</span>
       <span class="expertise-tag">Information Architecture</span>
-      <span class="expertise-tag">Technical Communication</span>
-      <span class="expertise-tag">Cross-Functional Collaboration</span>
+      <span class="expertise-tag">Design Systems &amp; Governance</span>
       <span class="expertise-tag">Research Synthesis</span>
-      <span class="expertise-tag">Quality Criteria and Rubrics</span>
+      <span class="expertise-tag">Executive Communication</span>
+      <span class="expertise-tag">Cross-Functional Leadership</span>
+      <span class="expertise-tag">Accessible Experiences</span>
+      <span class="expertise-tag">Rapid Prototyping</span>
     </div>
   </div>
   <div class="expertise-category">
