@@ -2213,6 +2213,67 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: inline; }
   margin-bottom: 1.25rem;
 }
 
+.resume-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+}
+
+.resume-contact-link {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.resume-focus {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.resume-focus span {
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-surface);
+  color: var(--color-text-secondary);
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.resume-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.resume-metrics div {
+  padding: 0.85rem 0.9rem;
+  border-top: 2px solid var(--color-accent);
+  background: var(--color-surface);
+}
+
+.resume-metrics strong,
+.resume-metrics span {
+  display: block;
+}
+
+.resume-metrics strong {
+  color: var(--color-accent-dark);
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.resume-metrics span {
+  margin-top: 0.35rem;
+  color: var(--color-text-secondary);
+  font-size: 0.72rem;
+  line-height: 1.35;
+}
+
 .resume-download {
   display: inline-block;
   background: var(--color-accent);
@@ -2259,6 +2320,7 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: inline; }
   margin-bottom: 0.25rem;
 }
 
+.resume-entry-header h3,
 .resume-entry-header h4 {
   font-family: var(--font-heading);
   font-size: 1.15rem;
@@ -2315,6 +2377,7 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: inline; }
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
 }
 
+.resume-project h3,
 .resume-project h4 {
   font-size: 1rem;
   margin-bottom: 0.15rem;
@@ -2335,6 +2398,39 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: inline; }
   line-height: 1.55;
   color: var(--color-text-secondary);
   margin: 0;
+}
+
+.resume-skill-groups {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem 1.5rem;
+}
+
+.resume-skill-groups > div {
+  padding-top: 0.75rem;
+  border-top: 2px solid var(--color-accent-light);
+}
+
+.resume-skill-groups h3 {
+  margin: 0 0 0.35rem;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+}
+
+.resume-skill-groups p,
+.resume-education p,
+.resume-speaking p {
+  margin-bottom: 0.55rem;
+  color: var(--color-text-secondary);
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.resume-education,
+.resume-speaking {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.2rem 1.5rem;
 }
 
 /* --- Resume CTA row --- */
@@ -2429,6 +2525,13 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: inline; }
     grid-template-columns: 1fr;
   }
 
+  .resume-skill-groups,
+  .resume-education,
+  .resume-speaking,
+  .resume-metrics {
+    grid-template-columns: 1fr;
+  }
+
   .resume-entry-header {
     flex-direction: column;
     gap: 0.25rem;
@@ -2446,7 +2549,8 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: inline; }
   .site-footer,
   .floating-cta,
   .resume-download,
-  .resume-cta {
+  .resume-cta,
+  .resume-contact-link {
     display: none !important;
   }
 

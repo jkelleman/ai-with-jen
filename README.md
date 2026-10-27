@@ -24,6 +24,21 @@ Personal portfolio site for Jen Kelleman — ML/AI data engineer, speaker, educa
 hugo server -D
 ```
 
+## Resume PDF
+
+The downloadable resume is generated from semantic HTML and dedicated print
+CSS. The output keeps selectable text and an ATS-friendly reading order.
+
+```bash
+npm install
+npx playwright install chromium
+npm run resume:pdf
+```
+
+- Source: `resume/jen-kelleman-resume.html`
+- Print styles: `static/css/resume-print.css`
+- Output: `static/files/jen-kelleman-resume.pdf`
+
 ## Structure
 
 ```
