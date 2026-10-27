@@ -7,7 +7,7 @@ layout: "single"
 <div class="resume-header">
   <div class="resume-header-text">
     <p class="resume-subtitle">AI-First Product &amp; UX Leadership · Responsible AI · Agent Systems</p>
-    <p class="resume-summary">Product and UX leader with 15+ years of experience shaping enterprise technology and AI experiences. I turn ambiguous problems into clear product systems, prototypes, evaluation frameworks, and reusable practices—working across design, product, and engineering. My work spans Microsoft Fabric, responsible AI, agent workflows, and independent Python-based AI projects.</p>
+    <p class="resume-summary">Product and UX leader with experience shaping enterprise technology and AI experiences from 2012–2022. I turn ambiguous problems into clear product systems, prototypes, evaluation frameworks, and reusable practices—working across design, product, and engineering. My work spans Microsoft Fabric, responsible AI, agent workflows, and independent Python-based AI projects.</p>
     <a href="/files/jen-kelleman-resume.pdf" class="btn resume-download" download>Download PDF ↓</a>
   </div>
 </div>
