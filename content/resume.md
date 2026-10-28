@@ -1,13 +1,13 @@
 ---
 title: "Resume"
-description: "Jen Kelleman — AI-first product and UX leader building responsible AI experiences, agent systems, and scalable design practices."
+description: "Jen Kelleman — Principal Content Engineer focused on semantics, semantic modeling, responsible AI, and agent systems."
 layout: "single"
 ---
 
 <div class="resume-header">
   <div class="resume-header-text">
-    <p class="resume-subtitle">AI-First Product &amp; UX Leadership · Responsible AI · Agent Systems</p>
-    <p class="resume-summary">Product and UX leader with experience shaping enterprise technology and AI experiences from 2012–2022. I turn ambiguous problems into clear product systems, prototypes, evaluation frameworks, and reusable practices—working across design, product, and engineering. My work spans Microsoft Fabric, responsible AI, agent workflows, and independent Python-based AI projects.</p>
+    <p class="resume-subtitle">Principal Content Engineer · Semantics &amp; Semantic Modeling · Responsible AI</p>
+    <p class="resume-summary">Principal Content Engineer shaping enterprise data and AI experiences through semantics, semantic modeling, and terminology governance. I turn ambiguous product and data concepts into clear semantic systems, prototypes, evaluation frameworks, and reusable practices—working across design, product, and engineering. My work spans Microsoft Fabric, responsible AI, agent workflows, and independent Python-based AI projects.</p>
     <a href="/files/jen-kelleman-resume.pdf" class="btn resume-download" download>Download PDF ↓</a>
   </div>
 </div>
@@ -20,16 +20,16 @@ layout: "single"
 
 <div class="resume-entry">
   <div class="resume-entry-header">
-    <h4>Microsoft — Fabric Data Engineering</h4>
+    <h4>Microsoft — Fabric Data Engineering · Cambridge, MA</h4>
     <span class="resume-date">Current</span>
   </div>
-  <p class="resume-role">Content Designer, AI & Data Products</p>
+  <p class="resume-role">Principal Content Engineer, AI & Data Products</p>
   <ul>
-    <li>Lead terminology strategy and governance for Fabric Data Engineering, shaping how users understand and work with complex data and AI capabilities.</li>
+    <li>Lead terminology strategy and governance for Fabric Data Engineering, shaping the semantics and semantic models that help users and AI systems interpret complex data capabilities.</li>
     <li>Partner across design, product, and engineering on experiences spanning Lakehouse, Materialized Views, Monitoring, and agentic AI.</li>
     <li>Designed information architecture and a status taxonomy for nine notebook dependency scenarios to make operational status easier to scan.</li>
     <li>Built a research-backed framework to evaluate 60+ product-name candidates; aligned stakeholders through senior technical and executive review.</li>
-    <li>Created reusable glossaries, evaluation rubrics, and onboarding patterns across four product areas, including criteria for terminology accuracy, grounding, and task completion.</li>
+    <li>Created reusable glossaries, semantic modeling guidance, evaluation rubrics, and onboarding patterns across four product areas, including criteria for terminology accuracy, grounding, and task completion.</li>
     <li>Developed AI-first design review and content governance practices that make AI influence, quality, and human judgment explicit.</li>
   </ul>
 </div>
@@ -43,9 +43,9 @@ layout: "single"
 <div class="resume-projects">
 
 <div class="resume-project">
-  <h4>AI Agent &amp; Prototyping Practice</h4>
+  <h4>Semantic Modeling &amp; AI Agents</h4>
   <span class="resume-project-scope">Independent · Python · GitHub</span>
-  <p>Designed an agent workflow system with eight specialized agents and custom skills. Built MCP agents for governed metrics and explainable data insights; the metrics project includes persistent storage, trust scoring, lineage, and 35+ tests. Uses hands-on prototyping to explore how AI can improve real workflows.</p>
+  <p>Built MCP agents around semantic models for governed metrics and explainable data insights. The metrics project includes persistent storage, trust scoring, data lineage, and 35+ tests. Also designed an agent workflow system with eight specialized agents and custom skills.</p>
   <a href="https://github.com/jkelleman" target="_blank" rel="noopener">View GitHub projects →</a>
 </div>
 
@@ -158,6 +158,7 @@ layout: "single"
     <div class="expertise-tags">
       <span class="expertise-tag">UX &amp; Product Strategy</span>
       <span class="expertise-tag">Information Architecture</span>
+      <span class="expertise-tag">Semantics &amp; Semantic Modeling</span>
       <span class="expertise-tag">Design Systems &amp; Governance</span>
       <span class="expertise-tag">Research Synthesis</span>
       <span class="expertise-tag">Executive Communication</span>
