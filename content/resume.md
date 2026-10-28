@@ -6,8 +6,9 @@ layout: "single"
 
 <div class="resume-header">
   <div class="resume-header-text">
-    <p class="resume-subtitle">Principal Content Engineer · Semantics &amp; Semantic Modeling · Responsible AI</p>
-    <p class="resume-summary">Principal Content Engineer shaping enterprise data and AI experiences through semantics, semantic modeling, and terminology governance. I turn ambiguous product and data concepts into clear semantic systems, prototypes, evaluation frameworks, and reusable practices—working across design, product, and engineering. My work spans Microsoft Fabric, responsible AI, agent workflows, and independent Python-based AI projects.</p>
+    <p class="resume-subtitle">Principal Content Design Engineer · Enterprise AI, Agentic & ML Systems</p>
+    <p class="resume-summary">I'm a Principal Content Design Engineer specializing in taking ambiguous enterprise AI, agentic, and machine learning opportunities from 0 → 1. I translate complex model behaviors into implementation-ready interaction models and system architectures. My work bridges the gap between deep backend infrastructure and human intent, spanning agent orchestration, prompt engineering, context modeling, evaluation pipelines, and semantic data layers.</p>     
+<p>By integrating content strategy and UX writing directly into version-controlled engineering workflows, I align technical telemetry and specifications with real-world user comprehension. Ultimately, I connect research, prototypes, and validation scripts to ensure that complex, intelligent system behaviors remain entirely understandable, recoverable, and governable for the enterprise.</p>
     <a href="/files/jen-kelleman-resume.pdf" class="btn resume-download" download>Download PDF ↓</a>
   </div>
 </div>
@@ -23,14 +24,15 @@ layout: "single"
     <h4>Microsoft — Fabric Data Engineering · Cambridge, MA</h4>
     <span class="resume-date">Current</span>
   </div>
-  <p class="resume-role">Principal Content Engineer, AI & Data Products</p>
+  <p class="resume-role">Principal Content Design Engineer, AI & Data Products</p>
   <ul>
-    <li>Lead terminology strategy and governance for Fabric Data Engineering, shaping the semantics and semantic models that help users and AI systems interpret complex data capabilities.</li>
-    <li>Partner across design, product, and engineering on experiences spanning Lakehouse, Materialized Views, Monitoring, and agentic AI.</li>
-    <li>Designed information architecture and a status taxonomy for nine notebook dependency scenarios to make operational status easier to scan.</li>
-    <li>Built a research-backed framework to evaluate 60+ product-name candidates; aligned stakeholders through senior technical and executive review.</li>
-    <li>Created reusable glossaries, semantic modeling guidance, evaluation rubrics, and onboarding patterns across four product areas, including criteria for terminology accuracy, grounding, and task completion.</li>
-    <li>Developed AI-first design review and content governance practices that make AI influence, quality, and human judgment explicit.</li>
+  <li>Lead 0 → 1 design for cross-product enterprise data and AI workflows. Turn product and technical ambiguity into interaction models, user flows, content contracts, prototypes, and implementation-ready specifications.</li>
+ <li>Create reusable error and recovery architecture and content strategy for Fabric—error anatomy, status language, action labels, guidance, and escalation—making failures predictable and recoverable across products.</li>
+ <li>Design autonomous engineering agent, Copilot, and Work IQ workflows. Define orchestration, tool use, context, status, delegation, review, recovery, and integration with version-controlled engineering workflows.</li>
+ <li>Turn stalled cross-functional decisions into evidence-backed product direction, then carry decisions into implementation guidance and validation criteria.</li>
+ <li>Create research-to-implementation traceability across hypotheses, decision records, implementation-ready specifications, telemetry, and testable system behavior.</li>
+ <li>Align design, product, engineering, research, accessibility, and localization around reusable patterns while preserving product-specific needs.</li>
+ <li>Prototype monitoring, permissions, governance, and administrative experiences for complex enterprise systems and regulated environments.</li>
   </ul>
 </div>
 
@@ -80,12 +82,7 @@ layout: "single"
 
 <div class="edu-item">
 <strong>Carnegie Mellon University</strong>
-<span>MS, Data Science (in progress)</span>
-</div>
-
-<div class="edu-item">
-<strong>Tufts University</strong>
-<span>MS, Computer Science (in progress)</span>
+<span>MS, Data Science</span>
 </div>
 
 <div class="edu-item">
