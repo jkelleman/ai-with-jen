@@ -97,7 +97,7 @@ I also offer custom corporate workshops tailored to your team's data products an
 
 ## About the instructor
 
-**Jen Kelleman** holds an MS in Computer Science (Tufts) and an MS in Data Science (Carnegie Mellon). She's a Principal Content Designer at Microsoft, where she owns terminology governance for Fabric Data Engineering — Lakehouse, Materialized Views, Monitoring, and Osmos. She was a teaching assistant for Microsoft Azure Data University, has delivered prompt engineering workshops to ~50 designers, and has designed evaluation rubrics used across four product areas. She holds the AI-900 (Azure AI Fundamentals) certification and is pursuing Azure Data Engineer Associate.
+**Jen Kelleman** holds an MS in Data Science (Carnegie Mellon). She's a Principal Content Design Engineer at Microsoft, where she owns semantic infrastructure and data governance for Fabric Data Engineering — Lakehouse, Materialized Views, Monitoring, and Osmos. She was a teaching assistant for Microsoft Azure Data University, has delivered prompt engineering workshops to 100+ designers, and has designed evaluation rubrics for complex AI orchestration workflows. She holds the AI-900 (Azure AI) certification and is pursuing Azure Data Engineer Associate.
 
 <p style="margin-top: 2rem; text-align: center;">
   <a href="/contact/" class="btn">Let's talk →</a>
