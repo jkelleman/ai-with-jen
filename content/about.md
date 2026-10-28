@@ -1,12 +1,12 @@
 ---
 title: "About Jen"
-description: "AI systems designer, speaker, educator. I design the language system of AI and data products."
+description: "Principal Content Design Engineer specializing in human layer interaction, agentic orchestration, and model infrastructure."
 layout: "single"
 ---
 
 <img src="/img/jen-kelleman-2.jpg" alt="Jen Kelleman" class="about-photo">
 
-I thrive in 0→1 environments, designing the human layer of agentic AI systems — the language, workflows, trust signals, and agent architectures that make autonomous AI usable, trustworthy, and learnable at scale.
+I operate at the intersection of systems engineering and product design, taking ambiguous 0→1 enterprise AI opportunities and making them implementation-ready. My experience spans the entire runtime lifecycle—including context modeling, tool use boundaries, model evaluation, and technical telemetry. I align core content strategy and UX writing with robust verification workflows, ensuring advanced intelligent systems remain reliable, recoverable, and governable.
 
 ## Expertise
 
@@ -83,7 +83,9 @@ I thrive in 0→1 environments, designing the human layer of agentic AI systems 
 
 ## What I do
 
-I name things for a living — column names, error messages, glossaries, metrics definitions — the words that sit between raw data and the people who need to use it. When a data product confuses someone, it's almost never a model problem. It's a naming problem. At Microsoft, I own that for Fabric Data Engineering. Over 15 years, I've shipped content design for autonomous AI features, led cross-stakeholder naming research through Technical Fellow and CVP approval gates, and built the terminology systems that AI-assisted features depend on.
+I build semantic infrastructure for a living. I design the schemas, column names, error recovery messages, localized glossaries, and metrics definitions—the precise words that sit between raw data and the people who need to use it. When a data product confuses someone, it is almost never a model problem. It is a naming problem.
+
+I lead this discipline for Microsoft Fabric Data Engineering. Across more than a decade of technical specialization, I have architected user-facing copy for autonomous AI components, guided complex naming systems through executive Technical Fellow and CVP governance gates, and engineered the precise terminology structures that grounding and RAG-assisted applications rely on to eliminate ambiguity.
 
 ---
 

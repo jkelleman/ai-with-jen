@@ -1,64 +1,24 @@
-# aiwithjen.com — Site Repository
+# Jen Kelleman
 
-Personal portfolio site for Jen Kelleman — ML/AI data engineer, speaker, educator. Built with Hugo, deployed via Netlify.
+**Principal Content Design Engineer** working across enterprise AI, semantic infrastructure, and agentic systems.
 
-**Live:** [aiwithjen.com](https://aiwithjen.com/)
+[Portfolio](https://aiwithjen.com/portfolio/) · [About](https://aiwithjen.com/about/) · [Resume](https://aiwithjen.com/resume/) · [Speaking](https://aiwithjen.com/speaking/) · [Contact](https://aiwithjen.com/contact/)
 
-## Pages
+I turn ambiguous 0→1 AI opportunities into implementation-ready product experiences. My work connects systems engineering and product design through agent orchestration, context modeling, evaluation, and content systems that make intelligent products reliable, recoverable, and governable.
 
-| Page | File | What it covers |
-|------|------|----------------|
-| Home | `content/_index.md` | Intro, featured cards (Speaking, Courses, Articles) |
-| About | `content/about.md` | Bio, beliefs, what I've built, awards, education, Boston community |
-| Speaking | `content/speaking.md` | Talk abstracts, upcoming events, recent events, booking info |
-| Courses | `content/courses.md` | Full-Stack Data Clarity course, coming-soon courses, university partnerships |
-| Book | `content/book.md` | Full-Stack Data Clarity book — premise, chapter outline, notify CTA |
-| Work with Me | `content/work-with-me.md` | Speaking, teaching, consulting, mentoring, office hours |
-| Articles | `content/articles.md` | Links to Medium writing |
-| Contact | `content/contact.md` | Booking link, email, LinkedIn |
-| Testimonials | `content/testimonials.md` | Endorsements |
+## Focus
 
-## Local development
+- Enterprise AI and agentic product design
+- Semantic infrastructure, terminology, and data products
+- Content strategy, UX writing, and system architecture
+- Evaluation, trust, and recovery workflows
+
+## Site
+
+Built with Hugo. Page content lives in `content/`, shared templates in `layouts/`, and styles and assets in `static/`.
+
+Run locally with:
 
 ```bash
 hugo server -D
 ```
-
-## Resume PDF
-
-The downloadable resume is generated from semantic HTML and dedicated print
-CSS. The output keeps selectable text and an ATS-friendly reading order.
-
-```bash
-npm install
-npx playwright install chromium
-npm run resume:pdf
-```
-
-- Source: `resume/jen-kelleman-resume.html`
-- Print styles: `static/css/resume-print.css`
-- Output: `static/files/jen-kelleman-resume.pdf`
-
-## Structure
-
-```
-site/
-├── content/          # Markdown pages (one per page)
-├── layouts/          # HTML templates
-├── static/           # Images, downloads, assets
-├── config.toml       # Site configuration
-└── README.md         # This file
-```
-
-## Deployment
-
-Push to `main` → auto-deploys via Netlify.
-
-## Recent updates (April 2026)
-
-- Renamed course/book to **Full-Stack Data Clarity** (was "Full-Stack Clarity")
-- Beliefs section rewritten with AI-first framing (AI-accessible content, evaluative rubrics)
-- "Beyond Microsoft" replaced with Boston tech community (PyLadies, PyData)
-- Universities section repositioned around AI + data literacy curriculum gaps
-- Inline CTAs converted to centered button-style CTAs throughout
-- Upcoming/Book sections cleaned up (no italics, proper CTA placement)

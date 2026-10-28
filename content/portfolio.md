@@ -142,45 +142,45 @@ aliases: ["/work/"]
 
 <div class="project-grid">
 
-<div class="project-card project-card--featured project-card--teal">
+<a href="https://github.com/jkelleman/semantic-metrics-modeling-assistant" class="project-card project-card--link project-card--featured project-card--teal" target="_blank" rel="noopener">
   <div class="project-header">
     <h4>Semantic Metrics Modeling Assistant</h4>
     <span class="project-scope">MCP Agent · Semantic Layer Design</span>
   </div>
   <p>Built an MCP agent with a weighted trust-scoring model and lineage visualization over a governed schema, backed by 35+ tests at 90%+ coverage.</p>
   <p class="project-demonstrates"><strong>Demonstrates:</strong> Harness Engineering · AI Evaluation Systems · Semantic Layer Design</p>
-  <a href="https://github.com/jkelleman/semantic-metrics-modeling-assistant" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
-</div>
+  <span class="project-link">View on GitHub →</span>
+</a>
 
-<div class="project-card project-card--purple">
+<a href="https://github.com/jkelleman/ai-assisted-insights-agent" class="project-card project-card--link project-card--purple" target="_blank" rel="noopener">
   <div class="project-header">
     <h4>AI-Assisted Insights Agent</h4>
     <span class="project-scope">MCP Agent · Context Architecture</span>
   </div>
   <p>Grounded NL-to-SQL translation in a governed semantic layer so every answer ships with its query and data-quality caveats.</p>
   <p class="project-demonstrates"><strong>Demonstrates:</strong> Context Architecture · Decision Traceability · Responsible AI</p>
-  <a href="https://github.com/jkelleman/ai-assisted-insights-agent" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
-</div>
+  <span class="project-link">View on GitHub →</span>
+</a>
 
-<div class="project-card project-card--amber">
+<a href="https://github.com/jkelleman/wedding-planning-agent" class="project-card project-card--link project-card--amber" target="_blank" rel="noopener">
   <div class="project-header">
     <h4>Wedding Planning Agent</h4>
     <span class="project-scope">Systems Design · Semantic Modeling</span>
   </div>
   <p>Modeled vendors and budget as structured entities with real-time dependency mapping and a fit-score that shows its reasoning.</p>
   <p class="project-demonstrates"><strong>Demonstrates:</strong> Semantic Layer Design · Decision Traceability · Intent Engineering</p>
-  <a href="https://github.com/jkelleman/wedding-planning-agent" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
-</div>
+  <span class="project-link">View on GitHub →</span>
+</a>
 
-<div class="project-card project-card--blue">
+<a href="https://github.com/jkelleman/ai-content-design-handbook" class="project-card project-card--link project-card--blue" target="_blank" rel="noopener">
   <div class="project-header">
     <h4>AI Content Design Handbook</h4>
     <span class="project-scope">Framework · Governance</span>
   </div>
   <p>Built a reusable framework of testing methods, bias-detection guides, and transparency templates.</p>
   <p class="project-demonstrates"><strong>Demonstrates:</strong> Acceptance Criteria Design · Responsible AI · Knowledge Systems Design</p>
-  <a href="https://github.com/jkelleman/ai-content-design-handbook" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
-</div>
+  <span class="project-link">View on GitHub →</span>
+</a>
 
 </div>
 
