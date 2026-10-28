@@ -1,6 +1,5 @@
 ---
 title: "Resume"
-description: "Jen Kelleman — Principal Content Engineer focused on semantics, semantic modeling, responsible AI, and agent systems."
 layout: "single"
 ---
 
