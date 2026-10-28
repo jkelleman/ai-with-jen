@@ -97,12 +97,7 @@ I lead this discipline for Microsoft Fabric Data Engineering. Across more than a
 
 <div class="edu-item">
 <strong>Carnegie Mellon University</strong>
-<span>MS, Data Science (in progress)</span>
-</div>
-
-<div class="edu-item">
-<strong>Tufts University</strong>
-<span>MS, Computer Science (in progress)</span>
+<span>MS, Data Science</span>
 </div>
 
 <div class="edu-item">
