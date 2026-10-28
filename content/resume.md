@@ -6,8 +6,8 @@ layout: "single"
 <div class="resume-header">
   <div class="resume-header-text">
     <p class="resume-subtitle">Principal Content Design Engineer · Enterprise AI, Agentic & ML Systems</p>
-    <p class="resume-summary">I'm a Principal Content Design Engineer specializing in taking ambiguous enterprise AI, agentic, and machine learning opportunities from 0 → 1. I translate complex model behaviors into implementation-ready interaction models and system architectures. My work bridges the gap between deep backend infrastructure and human intent, spanning agent orchestration, prompt engineering, context modeling, evaluation pipelines, and semantic data layers.</p>     
-<p>By integrating content strategy and UX writing directly into version-controlled engineering workflows, I align technical telemetry and specifications with real-world user comprehension. Ultimately, I connect research, prototypes, and validation scripts to ensure that complex, intelligent system behaviors remain entirely understandable, recoverable, and governable for the enterprise.</p>
+    <p class="resume-summary">I'm a Principal Content Design Engineer specializing in taking ambiguous enterprise AI, agentic, and machine learning opportunities from 0 → 1. I translate complex model behaviors into implementation-ready interaction models and system architectures. My work bridges the gap between deep backend infrastructure and human intent, spanning agent orchestration, prompt engineering, context modeling, evaluation pipelines, and semantic data layers.</p>
+    <p>By integrating content strategy and UX writing directly into version-controlled engineering workflows, I align technical telemetry and specifications with real-world user comprehension. Ultimately, I connect research, prototypes, and validation scripts to ensure that complex, intelligent system behaviors remain entirely understandable, recoverable, and governable for the enterprise.</p>
     <a href="/files/jen-kelleman-resume.pdf" class="btn resume-download" download>Download PDF ↓</a>
   </div>
 </div>
