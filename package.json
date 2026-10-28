@@ -1,0 +1,10 @@
+{
+  "name": "ai-with-jen-site",
+  "private": true,
+  "scripts": {
+    "resume:pdf": "node scripts/generate-resume-pdf.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.55.0"
+  }
+}
